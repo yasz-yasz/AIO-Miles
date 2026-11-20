@@ -1,0 +1,331 @@
+SIN	Singapore	Singapore	1	1.3644	103.9915
+CGK	Jakarta	Indonesia	2	-6.1256	106.6559
+DPS	Denpasar Bali	Indonesia	2	-8.7482	115.1672
+SUB	Surabaya	Indonesia	2	-7.3798	112.7869
+KNO	Medan	Indonesia	2	3.6422	98.8853
+UPG	Makassar	Indonesia	2	-5.0616	119.5540
+YIA	Yogyakarta	Indonesia	2	-7.9056	110.0544
+SRG	Semarang	Indonesia	2	-6.9714	110.3741
+BPN	Balikpapan	Indonesia	2	-1.2683	116.8944
+MDC	Manado	Indonesia	2	1.5493	124.9259
+PLM	Palembang	Indonesia	2	-2.8983	104.6999
+PKU	Pekanbaru	Indonesia	2	0.4608	101.4445
+PDG	Padang	Indonesia	2	-0.7869	100.2806
+LOP	Lombok	Indonesia	2	-8.7573	116.2767
+BTH	Batam	Indonesia	2	1.1210	104.1186
+PNK	Pontianak	Indonesia	2	-0.1507	109.4039
+BDJ	Banjarmasin	Indonesia	2	-3.4424	114.7626
+SOC	Solo	Indonesia	2	-7.5161	110.7569
+AMQ	Ambon	Indonesia	2	-3.7103	128.0891
+DJJ	Jayapura	Indonesia	2	-2.5769	140.5164
+LBJ	Labuan Bajo	Indonesia	2	-8.4867	119.8891
+KUL	Kuala Lumpur	Malaysia	2	2.7456	101.7099
+PEN	Penang	Malaysia	2	5.2971	100.2769
+BKI	Kota Kinabalu	Malaysia	2	5.9372	116.0512
+KCH	Kuching	Malaysia	2	1.4847	110.3469
+LGK	Langkawi	Malaysia	2	6.3297	99.7287
+JHB	Johor Bahru	Malaysia	2	1.6413	103.6696
+BWN	Bandar Seri Begawan	Brunei	2	4.9442	114.9284
+BKK	Bangkok Suvarnabhumi	Thailand	3	13.6900	100.7501
+DMK	Bangkok Don Mueang	Thailand	3	13.9126	100.6067
+HKT	Phuket	Thailand	3	8.1132	98.3169
+CNX	Chiang Mai	Thailand	3	18.7668	98.9626
+USM	Koh Samui	Thailand	3	9.5478	100.0623
+KBV	Krabi	Thailand	3	8.0991	98.9862
+SGN	Ho Chi Minh City	Vietnam	3	10.8188	106.6519
+HAN	Hanoi	Vietnam	3	21.2212	105.8072
+DAD	Da Nang	Vietnam	3	16.0439	108.1994
+CXR	Nha Trang	Vietnam	3	11.9982	109.2194
+PQC	Phu Quoc	Vietnam	3	10.1698	103.9931
+MNL	Manila	Philippines	3	14.5086	121.0194
+CEB	Cebu	Philippines	3	10.3075	123.9794
+CRK	Clark	Philippines	3	15.1860	120.5603
+DVO	Davao	Philippines	3	7.1255	125.6458
+PNH	Phnom Penh	Cambodia	3	11.5466	104.8441
+SAI	Siem Reap	Cambodia	3	13.3686	104.2225
+RGN	Yangon	Myanmar	3	16.9073	96.1332
+VTE	Vientiane	Laos	3	17.9883	102.5633
+LPQ	Luang Prabang	Laos	3	19.8973	102.1608
+HKG	Hong Kong	Hong Kong	4	22.3080	113.9185
+MFM	Macau	Macau	4	22.1496	113.5916
+TPE	Taipei Taoyuan	Taiwan	4	25.0797	121.2342
+TSA	Taipei Songshan	Taiwan	4	25.0694	121.5525
+KHH	Kaohsiung	Taiwan	4	22.5771	120.3500
+CAN	Guangzhou	China	4	23.3924	113.2988
+SZX	Shenzhen	China	4	22.6393	113.8107
+XMN	Xiamen	China	4	24.5440	118.1277
+FOC	Fuzhou	China	4	25.9351	119.6633
+KMG	Kunming	China	4	25.1019	102.9292
+HAK	Haikou	China	4	19.9349	110.4590
+SYX	Sanya	China	4	18.3029	109.4123
+NNG	Nanning	China	4	22.6083	108.1724
+PVG	Shanghai Pudong	China	5	31.1443	121.8083
+SHA	Shanghai Hongqiao	China	5	31.1979	121.3363
+PEK	Beijing Capital	China	5	40.0799	116.6031
+PKX	Beijing Daxing	China	5	39.5098	116.4105
+CTU	Chengdu Shuangliu	China	5	30.5785	103.9471
+TFU	Chengdu Tianfu	China	5	30.3125	104.4413
+CKG	Chongqing	China	5	29.7192	106.6417
+HGH	Hangzhou	China	5	30.2295	120.4344
+NKG	Nanjing	China	5	31.7420	118.8620
+XIY	Xi'an	China	5	34.4471	108.7516
+WUH	Wuhan	China	5	30.7838	114.2081
+TAO	Qingdao	China	5	36.3661	120.0972
+DLC	Dalian	China	5	38.9657	121.5386
+SHE	Shenyang	China	5	41.6398	123.4834
+CSX	Changsha	China	5	28.1892	113.2196
+CGO	Zhengzhou	China	5	34.5197	113.8409
+TSN	Tianjin	China	5	39.1244	117.3462
+HRB	Harbin	China	5	45.6234	126.2503
+URC	Urumqi	China	5	43.9071	87.4742
+TNA	Jinan	China	5	36.8572	117.2160
+DEL	New Delhi	India	6	28.5562	77.1000
+BOM	Mumbai	India	6	19.0896	72.8656
+BLR	Bengaluru	India	6	13.1986	77.7066
+MAA	Chennai	India	6	12.9941	80.1709
+HYD	Hyderabad	India	6	17.2403	78.4294
+CCU	Kolkata	India	6	22.6520	88.4463
+COK	Kochi	India	6	10.1520	76.4019
+AMD	Ahmedabad	India	6	23.0772	72.6347
+GOI	Goa	India	6	15.3808	73.8314
+TRV	Thiruvananthapuram	India	6	8.4821	76.9201
+CMB	Colombo	Sri Lanka	6	7.1808	79.8841
+MLE	Male	Maldives	6	4.1918	73.5291
+DAC	Dhaka	Bangladesh	6	23.8433	90.3978
+KTM	Kathmandu	Nepal	6	27.6966	85.3591
+KHI	Karachi	Pakistan	6	24.9065	67.1608
+LHE	Lahore	Pakistan	6	31.5216	74.4036
+ISB	Islamabad	Pakistan	6	33.5607	72.8516
+HND	Tokyo Haneda	Japan	7	35.5494	139.7798
+NRT	Tokyo Narita	Japan	7	35.7720	140.3929
+KIX	Osaka Kansai	Japan	7	34.4347	135.2441
+ITM	Osaka Itami	Japan	7	34.7855	135.4382
+NGO	Nagoya Chubu	Japan	7	34.8584	136.8054
+FUK	Fukuoka	Japan	7	33.5859	130.4507
+CTS	Sapporo New Chitose	Japan	7	42.7752	141.6923
+OKA	Okinawa Naha	Japan	7	26.1958	127.6459
+HIJ	Hiroshima	Japan	7	34.4361	132.9194
+SDJ	Sendai	Japan	7	38.1397	140.9170
+KOJ	Kagoshima	Japan	7	31.8034	130.7194
+ICN	Seoul Incheon	South Korea	7	37.4602	126.4407
+GMP	Seoul Gimpo	South Korea	7	37.5583	126.7906
+PUS	Busan	South Korea	7	35.1796	128.9382
+CJU	Jeju	South Korea	7	33.5113	126.4930
+PER	Perth	Australia	8	-31.9403	115.9669
+DRW	Darwin	Australia	8	-12.4147	130.8767
+SYD	Sydney	Australia	9	-33.9461	151.1772
+MEL	Melbourne	Australia	9	-37.6690	144.8410
+BNE	Brisbane	Australia	9	-27.3842	153.1175
+ADL	Adelaide	Australia	9	-34.9450	138.5306
+CNS	Cairns	Australia	9	-16.8858	145.7553
+CBR	Canberra	Australia	9	-35.3069	149.1950
+OOL	Gold Coast	Australia	9	-28.1644	153.5047
+HBA	Hobart	Australia	9	-42.8361	147.5103
+AKL	Auckland	New Zealand	9	-37.0082	174.7850
+CHC	Christchurch	New Zealand	9	-43.4894	172.5322
+WLG	Wellington	New Zealand	9	-41.3272	174.8053
+ZQN	Queenstown	New Zealand	9	-45.0211	168.7392
+NAN	Nadi	Fiji	9	-17.7554	177.4434
+SUV	Suva	Fiji	9	-18.0433	178.5592
+APW	Apia	Samoa	9	-13.8300	-172.0083
+PPT	Papeete Tahiti	French Polynesia	9	-17.5537	-149.6067
+NOU	Noumea	New Caledonia	9	-22.0146	166.2130
+POM	Port Moresby	Papua New Guinea	9	-9.4434	147.2200
+GUM	Guam	Guam	9	13.4834	144.7960
+DOH	Doha	Qatar	10	25.2731	51.6081
+DXB	Dubai	UAE	10	25.2532	55.3657
+AUH	Abu Dhabi	UAE	10	24.4330	54.6511
+MCT	Muscat	Oman	10	23.5933	58.2844
+RUH	Riyadh	Saudi Arabia	10	24.9576	46.6988
+JED	Jeddah	Saudi Arabia	10	21.6796	39.1565
+DMM	Dammam	Saudi Arabia	10	26.4712	49.7979
+MED	Madinah	Saudi Arabia	10	24.5534	39.7051
+AMM	Amman	Jordan	10	31.7226	35.9932
+BAH	Bahrain	Bahrain	10	26.2708	50.6336
+KWI	Kuwait City	Kuwait	10	29.2266	47.9689
+BEY	Beirut	Lebanon	10	33.8209	35.4884
+CAI	Cairo	Egypt	10	30.1219	31.4056
+HRG	Hurghada	Egypt	10	27.1783	33.7994
+SSH	Sharm El Sheikh	Egypt	10	27.9773	34.3950
+CMN	Casablanca	Morocco	10	33.3675	-7.5899
+RAK	Marrakech	Morocco	10	31.6069	-8.0363
+ALG	Algiers	Algeria	10	36.6910	3.2154
+TUN	Tunis	Tunisia	10	36.8510	10.2272
+ADD	Addis Ababa	Ethiopia	10	8.9779	38.7993
+NBO	Nairobi	Kenya	10	-1.3192	36.9278
+MBA	Mombasa	Kenya	10	-4.0348	39.5942
+JNB	Johannesburg	South Africa	10	-26.1392	28.2460
+CPT	Cape Town	South Africa	10	-33.9648	18.6017
+DUR	Durban	South Africa	10	-29.6144	31.1197
+LOS	Lagos	Nigeria	10	6.5774	3.3212
+ABV	Abuja	Nigeria	10	9.0068	7.2632
+ACC	Accra	Ghana	10	5.6052	-0.1668
+DSS	Dakar	Senegal	10	14.6700	-17.0733
+ABJ	Abidjan	Ivory Coast	10	5.2614	-3.9263
+DAR	Dar es Salaam	Tanzania	10	-6.8781	39.2026
+ZNZ	Zanzibar	Tanzania	10	-6.2220	39.2249
+EBB	Entebbe	Uganda	10	0.0424	32.4435
+KGL	Kigali	Rwanda	10	-1.9686	30.1395
+MRU	Mauritius	Mauritius	10	-20.4302	57.6836
+SEZ	Mahe Seychelles	Seychelles	10	-4.6743	55.5218
+LAD	Luanda	Angola	10	-8.8584	13.2312
+HRE	Harare	Zimbabwe	10	-17.9318	31.0928
+LUN	Lusaka	Zambia	10	-15.3308	28.4526
+WDH	Windhoek	Namibia	10	-22.4799	17.4709
+LHR	London Heathrow	United Kingdom	11	51.4700	-0.4543
+LGW	London Gatwick	United Kingdom	11	51.1537	-0.1821
+MAN	Manchester	United Kingdom	11	53.3537	-2.2750
+EDI	Edinburgh	United Kingdom	11	55.9508	-3.3615
+BHX	Birmingham	United Kingdom	11	52.4539	-1.7480
+GLA	Glasgow	United Kingdom	11	55.8719	-4.4331
+DUB	Dublin	Ireland	11	53.4213	-6.2701
+CDG	Paris Charles de Gaulle	France	11	49.0097	2.5479
+ORY	Paris Orly	France	11	48.7262	2.3652
+NCE	Nice	France	11	43.6584	7.2159
+LYS	Lyon	France	11	45.7256	5.0811
+MRS	Marseille	France	11	43.4393	5.2214
+TLS	Toulouse	France	11	43.6291	1.3638
+AMS	Amsterdam Schiphol	Netherlands	11	52.3105	4.7683
+BRU	Brussels	Belgium	11	50.9014	4.4844
+FRA	Frankfurt	Germany	11	50.0379	8.5622
+MUC	Munich	Germany	11	48.3537	11.7750
+BER	Berlin Brandenburg	Germany	11	52.3667	13.5033
+DUS	Dusseldorf	Germany	11	51.2895	6.7668
+HAM	Hamburg	Germany	11	53.6304	9.9882
+STR	Stuttgart	Germany	11	48.6899	9.2220
+ZRH	Zurich	Switzerland	11	47.4647	8.5492
+GVA	Geneva	Switzerland	11	46.2381	6.1089
+VIE	Vienna	Austria	11	48.1103	16.5697
+FCO	Rome Fiumicino	Italy	11	41.8003	12.2389
+MXP	Milan Malpensa	Italy	11	45.6301	8.7255
+LIN	Milan Linate	Italy	11	45.4451	9.2767
+VCE	Venice	Italy	11	45.5053	12.3519
+NAP	Naples	Italy	11	40.8860	14.2908
+BLQ	Bologna	Italy	11	44.5354	11.2887
+FLR	Florence	Italy	11	43.8100	11.2051
+MAD	Madrid	Spain	11	40.4983	-3.5676
+BCN	Barcelona	Spain	11	41.2974	2.0833
+AGP	Malaga	Spain	11	36.6749	-4.4991
+PMI	Palma de Mallorca	Spain	11	39.5517	2.7388
+VLC	Valencia	Spain	11	39.4893	-0.4816
+SVQ	Seville	Spain	11	37.4180	-5.8931
+BIO	Bilbao	Spain	11	43.3011	-2.9106
+LIS	Lisbon	Portugal	11	38.7742	-9.1342
+OPO	Porto	Portugal	11	41.2481	-8.6814
+FAO	Faro	Portugal	11	37.0144	-7.9659
+CPH	Copenhagen	Denmark	11	55.6180	12.6508
+ARN	Stockholm Arlanda	Sweden	11	59.6519	17.9186
+GOT	Gothenburg	Sweden	11	57.6628	12.2798
+OSL	Oslo	Norway	11	60.1976	11.1004
+BGO	Bergen	Norway	11	60.2934	5.2181
+HEL	Helsinki	Finland	11	60.3172	24.9633
+KEF	Reykjavik	Iceland	11	63.9850	-22.6056
+WAW	Warsaw	Poland	11	52.1657	20.9671
+KRK	Krakow	Poland	11	50.0777	19.7848
+GDN	Gdansk	Poland	11	54.3776	18.4662
+PRG	Prague	Czech Republic	11	50.1008	14.2600
+BUD	Budapest	Hungary	11	47.4298	19.2611
+OTP	Bucharest	Romania	11	44.5711	26.0850
+SOF	Sofia	Bulgaria	11	42.6952	23.4062
+ATH	Athens	Greece	11	37.9364	23.9445
+SKG	Thessaloniki	Greece	11	40.5197	22.9709
+HER	Heraklion	Greece	11	35.3397	25.1803
+JTR	Santorini	Greece	11	36.3992	25.4793
+JMK	Mykonos	Greece	11	37.4351	25.3481
+IST	Istanbul	Turkey	11	41.2753	28.7519
+ESB	Ankara	Turkey	11	40.1281	32.9951
+AYT	Antalya	Turkey	11	36.8987	30.8005
+ADB	Izmir	Turkey	11	38.2924	27.1570
+ZAG	Zagreb	Croatia	11	45.7429	16.0688
+SPU	Split	Croatia	11	43.5389	16.2980
+DBV	Dubrovnik	Croatia	11	42.5614	18.2682
+BEG	Belgrade	Serbia	11	44.8184	20.3091
+LJU	Ljubljana	Slovenia	11	46.2237	14.4576
+RIX	Riga	Latvia	11	56.9236	23.9711
+TLL	Tallinn	Estonia	11	59.4133	24.8328
+VNO	Vilnius	Lithuania	11	54.6341	25.2858
+LCA	Larnaca	Cyprus	11	34.8751	33.6249
+MLA	Malta	Malta	11	35.8575	14.4775
+LUX	Luxembourg	Luxembourg	11	49.6233	6.2044
+GYD	Baku	Azerbaijan	11	40.4675	50.0467
+TBS	Tbilisi	Georgia	11	41.6692	44.9547
+TAS	Tashkent	Uzbekistan	11	41.2579	69.2812
+ALA	Almaty	Kazakhstan	11	43.3521	77.0405
+LAX	Los Angeles	USA	12	33.9416	-118.4085
+SFO	San Francisco	USA	12	37.6213	-122.3790
+SEA	Seattle	USA	12	47.4502	-122.3088
+SAN	San Diego	USA	12	32.7338	-117.1933
+PDX	Portland	USA	12	45.5898	-122.5951
+LAS	Las Vegas	USA	12	36.0840	-115.1537
+PHX	Phoenix	USA	12	33.4373	-112.0078
+SLC	Salt Lake City	USA	12	40.7899	-111.9791
+DEN	Denver	USA	12	39.8561	-104.6737
+HNL	Honolulu	USA	12	21.3187	-157.9225
+OGG	Kahului Maui	USA	12	20.8986	-156.4305
+KOA	Kona	USA	12	19.7388	-156.0456
+LIH	Lihue Kauai	USA	12	21.9760	-159.3390
+ANC	Anchorage	USA	12	61.1743	-149.9963
+YVR	Vancouver	Canada	12	49.1967	-123.1815
+YYC	Calgary	Canada	12	51.1215	-114.0076
+YEG	Edmonton	Canada	12	53.3097	-113.5797
+JFK	New York JFK	USA	13	40.6413	-73.7781
+EWR	Newark	USA	13	40.6895	-74.1745
+LGA	New York LaGuardia	USA	13	40.7769	-73.8740
+BOS	Boston	USA	13	42.3656	-71.0096
+IAD	Washington Dulles	USA	13	38.9531	-77.4565
+DCA	Washington Reagan	USA	13	38.8512	-77.0402
+PHL	Philadelphia	USA	13	39.8744	-75.2424
+ORD	Chicago O'Hare	USA	13	41.9742	-87.9073
+DTW	Detroit	USA	13	42.2162	-83.3554
+MSP	Minneapolis	USA	13	44.8848	-93.2223
+ATL	Atlanta	USA	13	33.6407	-84.4277
+CLT	Charlotte	USA	13	35.2140	-80.9431
+MIA	Miami	USA	13	25.7959	-80.2870
+FLL	Fort Lauderdale	USA	13	26.0742	-80.1506
+MCO	Orlando	USA	13	28.4312	-81.3081
+TPA	Tampa	USA	13	27.9755	-82.5332
+DFW	Dallas Fort Worth	USA	13	32.8998	-97.0403
+IAH	Houston Intercontinental	USA	13	29.9902	-95.3368
+AUS	Austin	USA	13	30.1975	-97.6664
+BNA	Nashville	USA	13	36.1263	-86.6774
+RDU	Raleigh-Durham	USA	13	35.8801	-78.7880
+STL	St. Louis	USA	13	38.7487	-90.3700
+MSY	New Orleans	USA	13	29.9934	-90.2580
+PIT	Pittsburgh	USA	13	40.4915	-80.2329
+YYZ	Toronto Pearson	Canada	13	43.6777	-79.6248
+YUL	Montreal	Canada	13	45.4706	-73.7408
+YOW	Ottawa	Canada	13	45.3225	-75.6692
+YHZ	Halifax	Canada	13	44.8808	-63.5086
+MEX	Mexico City	Mexico	13	19.4363	-99.0721
+CUN	Cancun	Mexico	13	21.0365	-86.8771
+GDL	Guadalajara	Mexico	13	20.5218	-103.3112
+MTY	Monterrey	Mexico	13	25.7785	-100.1069
+SJD	San Jose del Cabo	Mexico	13	23.1518	-109.7215
+PTY	Panama City	Panama	13	9.0714	-79.3835
+SJO	San Jose	Costa Rica	13	9.9939	-84.2088
+SAL	San Salvador	El Salvador	13	13.4409	-89.0557
+GUA	Guatemala City	Guatemala	13	14.5833	-90.5275
+BOG	Bogota	Colombia	13	4.7016	-74.1469
+MDE	Medellin	Colombia	13	6.1645	-75.4231
+CTG	Cartagena	Colombia	13	10.4424	-75.5130
+LIM	Lima	Peru	13	-12.0219	-77.1143
+CUZ	Cusco	Peru	13	-13.5357	-71.9388
+UIO	Quito	Ecuador	13	-0.1292	-78.3575
+GYE	Guayaquil	Ecuador	13	-2.1574	-79.8836
+SCL	Santiago	Chile	13	-33.3930	-70.7858
+EZE	Buenos Aires Ezeiza	Argentina	13	-34.8222	-58.5358
+AEP	Buenos Aires Aeroparque	Argentina	13	-34.5592	-58.4156
+COR	Cordoba	Argentina	13	-31.3236	-64.2080
+GRU	Sao Paulo Guarulhos	Brazil	13	-23.4356	-46.4731
+GIG	Rio de Janeiro Galeao	Brazil	13	-22.8099	-43.2505
+BSB	Brasilia	Brazil	13	-15.8711	-47.9186
+MVD	Montevideo	Uruguay	13	-34.8384	-56.0308
+ASU	Asuncion	Paraguay	13	-25.2400	-57.5192
+PUJ	Punta Cana	Dominican Republic	13	18.5674	-68.3634
+SDQ	Santo Domingo	Dominican Republic	13	18.4297	-69.6689
+SJU	San Juan	Puerto Rico	13	18.4394	-66.0018
+MBJ	Montego Bay	Jamaica	13	18.5037	-77.9134
+NAS	Nassau	Bahamas	13	25.0390	-77.4662
+HAV	Havana	Cuba	13	22.9892	-82.4091
+AUA	Aruba	Aruba	13	12.5014	-70.0152
+CUR	Curacao	Curacao	13	12.1889	-68.9598

@@ -1,0 +1,68 @@
+GA	Garuda Indonesia	SkyTeam	GarudaMiles	CGK,DPS,SUB,UPG	Y,J,F	Indonesia	Maskapai utama GarudaMiles; First Class pada rute 777 tertentu
+KL	KLM Royal Dutch Airlines	SkyTeam	GarudaMiles	AMS	Y,W,J	Netherlands	Hub utama Eropa SkyTeam; Fifth Freedom SIN-DPS & KUL-CGK
+AF	Air France	SkyTeam	GarudaMiles	CDG,ORY	Y,W,J,F	France	La Premiere First Class (akses terbatas), jaringan luas Eropa-Afrika-Amerika
+KE	Korean Air	SkyTeam	GarudaMiles	ICN,GMP	Y,J,F	South Korea	Hub Asia Timur utama; merger penuh dengan Asiana Des 2026
+DL	Delta Air Lines	SkyTeam	GarudaMiles	ATL,DTW,MSP,SLC,JFK,LAX,SEA,BOS	Y,W,J	USA	Jaringan domestik AS & transatlantik terbesar SkyTeam
+MU	China Eastern Airlines	SkyTeam	GarudaMiles	PVG,SHA,PKX,KMG,XIY	Y,W,J,F	China	Hub utama Shanghai; rute luas Tiongkok & Asia-Eropa
+MF	XiamenAir	SkyTeam	GarudaMiles	XMN,FOC,PKX	Y,J,F	China	Rute kuat Tiongkok Selatan ke CGK/DPS/AMS/LAX
+CI	China Airlines	SkyTeam	GarudaMiles	TPE,KHH	Y,W,J	Taiwan	Hub Taipei; koneksi sangat baik dari CGK/DPS ke Jepang & AS
+VN	Vietnam Airlines	SkyTeam	GarudaMiles	SGN,HAN,DAD	Y,W,J	Vietnam	Hub Asia Tenggara; rute langsung ke Eropa & Australia
+SV	Saudia	SkyTeam	GarudaMiles	JED,RUH,DMM	Y,J,F	Saudi Arabia	Rute Umrah/Haji langsung CGK-JED/MED & jaringan Timur Tengah
+AM	Aeromexico	SkyTeam	GarudaMiles	MEX,GDL,MTY	Y,J	Mexico	Hub Amerika Tengah & Meksiko
+AR	Aerolineas Argentinas	SkyTeam	GarudaMiles	EZE,AEP	Y,W,J	Argentina	Jaringan Amerika Selatan bagian selatan
+UX	Air Europa	SkyTeam	GarudaMiles	MAD	Y,J	Spain	Koneksi Eropa ke Amerika Latin via Madrid
+KQ	Kenya Airways	SkyTeam	GarudaMiles	NBO	Y,J	Kenya	Hub Afrika Timur SkyTeam
+ME	Middle East Airlines	SkyTeam	GarudaMiles	BEY	Y,J	Lebanon	Koneksi Levant, Timur Tengah & Eropa
+RO	TAROM	SkyTeam	GarudaMiles	OTP	Y,J	Romania	Rute Eropa Timur & Timur Tengah
+SK	SAS Scandinavian Airlines	SkyTeam	GarudaMiles	CPH,ARN,OSL	Y,W,J	Scandinavia	Bergabung SkyTeam Sep 2024; hub Nordik utama
+VS	Virgin Atlantic	SkyTeam	GarudaMiles	LHR,MAN	Y,W,J	United Kingdom	Hub London Heathrow; kuat di rute Transatlantik & Karibia
+SQ	Singapore Airlines	Star Alliance	KrisFlyer	SIN	Y,W,J,F,S	Singapore	Maskapai utama KrisFlyer; A380 Suites & Fifth Freedom FRA-JFK, NRT-LAX, MAN-IAH
+NH	ANA All Nippon Airways	Star Alliance	KrisFlyer	HND,NRT,KIX	Y,W,J,F	Japan	The Room Business & The Suite First Class; rute luas CGK-TYO
+TG	Thai Airways	Star Alliance	KrisFlyer	BKK	Y,W,J,F	Thailand	Hub Bangkok; rute kuat Asia Tenggara, Eropa & Australia
+BR	EVA Air	Star Alliance	KrisFlyer	TPE	Y,W,J	Taiwan	Royal Laurel Business; rute CGK-TPE ke Amerika Utara & Eropa
+OZ	Asiana Airlines	Star Alliance	KrisFlyer	ICN,GMP	Y,J,F	South Korea	Keluar Star Alliance 16 Des 2026 (merger Korean Air)
+CA	Air China	Star Alliance	KrisFlyer	PEK,CTU,PVG	Y,W,J,F	China	Hub Beijing; rute luas Asia, Eropa & Amerika
+ZH	Shenzhen Airlines	Star Alliance	KrisFlyer	SZX,CAN	Y,J	China	Jaringan Tiongkok Selatan & Asia
+AI	Air India	Star Alliance	KrisFlyer	DEL,BOM,BLR	Y,W,J,F	India	Hub India; jaringan luas ke Eropa, AS & Australia
+LH	Lufthansa	Star Alliance	KrisFlyer	FRA,MUC	Y,W,J,F	Germany	Hub utama Eropa Star Alliance; Allegris & First Class
+LX	SWISS International Air Lines	Star Alliance	KrisFlyer	ZRH,GVA	Y,W,J,F	Switzerland	Hub Zurich; First & Business premium Eropa
+OS	Austrian Airlines	Star Alliance	KrisFlyer	VIE	Y,W,J	Austria	Hub Wina; kuat di Eropa Tengah & Timur
+SN	Brussels Airlines	Star Alliance	KrisFlyer	BRU	Y,W,J	Belgium	Hub Brussels; jaringan kuat ke Afrika Barat & Tengah
+AZ	ITA Airways	Star Alliance	KrisFlyer	FCO,LIN	Y,W,J	Italy	Resmi bergabung Star Alliance 1 April 2026
+TK	Turkish Airlines	Star Alliance	KrisFlyer	IST,ESB	Y,J	Turkey	Jaringan negara terbanyak di dunia via Istanbul; langsung CGK/DPS-IST
+TP	TAP Air Portugal	Star Alliance	KrisFlyer	LIS,OPO	Y,J	Portugal	Jembatan Eropa ke Brasil & Amerika Utara
+LO	LOT Polish Airlines	Star Alliance	KrisFlyer	WAW	Y,W,J	Poland	Hub Eropa Tengah; rute langsung ke Asia & AS
+A3	Aegean Airlines	Star Alliance	KrisFlyer	ATH,SKG	Y,J	Greece	Hub Yunani & Mediterania Timur
+OU	Croatia Airlines	Star Alliance	KrisFlyer	ZAG,SPU	Y,J	Croatia	Koneksi Adriatik & Eropa
+UA	United Airlines	Star Alliance	KrisFlyer	ORD,EWR,IAD,IAH,DEN,SFO,LAX,GUM	Y,W,J	USA	Polaris Business; jaringan AS-Pasifik terbesar
+AC	Air Canada	Star Alliance	KrisFlyer	YYZ,YVR,YUL	Y,W,J	Canada	Hub Kanada; koneksi transpasifik & transatlantik
+AV	Avianca	Star Alliance	KrisFlyer	BOG,SAL,SJO	Y,J	Colombia	Jaringan Amerika Tengah & Amerika Selatan utara
+CM	Copa Airlines	Star Alliance	KrisFlyer	PTY	Y,J	Panama	Hub of the Americas Panama City
+NZ	Air New Zealand	Star Alliance	KrisFlyer	AKL,CHC,WLG	Y,W,J	New Zealand	Hub Selandia Baru & Pasifik Selatan
+ET	Ethiopian Airlines	Star Alliance	KrisFlyer	ADD	Y,J	Ethiopia	Jaringan terbesar di Afrika; Fifth Freedom SIN-KUL & BKK-HKG
+MS	EgyptAir	Star Alliance	KrisFlyer	CAI	Y,J	Egypt	Hub Kairo; koneksi Afrika Utara & Timur Tengah
+SA	South African Airways	Star Alliance	KrisFlyer	JNB,CPT	Y,J	South Africa	Hub Afrika Selatan & rute regional Afrika
+CX	Cathay Pacific	oneworld	Asia Miles	HKG	Y,W,J,F	Hong Kong	Maskapai utama Asia Miles; Aria Suite Business & First Class
+JL	Japan Airlines	oneworld	Asia Miles	HND,NRT,KIX	Y,W,J,F	Japan	A350-1000 First & Business; rute langsung CGK-NRT
+MH	Malaysia Airlines	oneworld	Asia Miles	KUL	Y,J,F	Malaysia	Business Suite (First); rute padat Indonesia-KUL ke Asia/Aus/LHR
+QF	Qantas	oneworld	Asia Miles	SYD,MEL,BNE,PER	Y,W,J,F	Australia	Hub Australia; A380 First Class & rute CGK/DPS-SYD/MEL
+QR	Qatar Airways	oneworld	Asia Miles	DOH	Y,J,F	Qatar	Qsuite Business & A380 First; 3x harian CGK/DPS-DOH ke seluruh dunia
+BA	British Airways	oneworld	Asia Miles	LHR,LGW	Y,W,J,F	United Kingdom	Club Suite & First Class; Fifth Freedom SIN-SYD
+IB	Iberia	oneworld	Asia Miles	MAD	Y,W,J	Spain	Hub Madrid; jaringan terkuat Eropa ke Amerika Latin
+AY	Finnair	oneworld	Asia Miles	HEL	Y,W,J	Finland	AirLounge Business; rute cepat Asia-Eropa via Helsinki
+AA	American Airlines	oneworld	Asia Miles	DFW,CLT,MIA,ORD,PHL,JFK,LAX,PHX	Y,W,J,F	USA	Flagship First & Business; jaringan AS & Amerika Latin terbesar
+AS	Alaska Airlines	oneworld	Asia Miles	SEA,LAX,SFO,PDX,ANC	Y,J	USA	Kuat di Pantai Barat AS, Alaska & Hawaii
+HA	Hawaiian Airlines	oneworld	Asia Miles	HNL,OGG	Y,J	USA	Resmi bergabung oneworld April 2026 (Alaska Air Group)
+UL	SriLankan Airlines	oneworld	Asia Miles	CMB	Y,J	Sri Lanka	Rute langsung CGK-CMB & koneksi India/Maladewa/Timur Tengah
+RJ	Royal Jordanian	oneworld	Asia Miles	AMM	Y,J	Jordan	Hub Amman; koneksi Levant, Eropa & Amerika Utara
+AT	Royal Air Maroc	oneworld	Asia Miles	CMN	Y,J	Morocco	Hub Casablanca; gerbang Afrika Barat & Utara oneworld
+FJ	Fiji Airways	oneworld	Asia Miles	NAN	Y,J	Fiji	Bergabung oneworld 2025; rute langsung SIN-NAN ke Pasifik & AS
+WY	Oman Air	oneworld	Asia Miles	MCT	Y,J,F	Oman	Bergabung oneworld 2025; rute CGK-MCT & First/Business Studio
+EY	Etihad Airways	Mitra GarudaMiles	GarudaMiles	AUH	Y,J,F	UAE	Mitra bilateral GarudaMiles; rute langsung CGK/DPS-AUH
+TR	Scoot	Mitra KrisFlyer	KrisFlyer	SIN	Y,W	Singapore	LCC grup SIA; penukaran KrisFlyer di Asia-Pasifik & Eropa
+VA	Virgin Australia	Mitra KrisFlyer	KrisFlyer	SYD,MEL,BNE	Y,J	Australia	Mitra bilateral KrisFlyer untuk domestik Australia & Bali
+B6	JetBlue	Mitra KrisFlyer	KrisFlyer	JFK,BOS,FLL	Y,J	USA	Mitra bilateral KrisFlyer di AS & Transatlantik
+HO	Juneyao Air	Mitra KrisFlyer	KrisFlyer	PVG,SHA	Y,J	China	Connecting Partner Star Alliance / KrisFlyer
+LA	LATAM Airlines	Mitra Asia Miles	Asia Miles	SCL,GRU,LIM,BOG	Y,W,J	Chile/Brazil	Mitra bilateral Asia Miles; pengisi celah jaringan Amerika Selatan
+GF	Gulf Air	Mitra Asia Miles	Asia Miles	BAH	Y,J	Bahrain	Mitra bilateral Asia Miles; koneksi Timur Tengah & Eropa
+PG	Bangkok Airways	Mitra Asia Miles	Asia Miles	BKK,USM	Y,J	Thailand	Mitra bilateral Asia Miles; rute boutique Koh Samui & Indochina
