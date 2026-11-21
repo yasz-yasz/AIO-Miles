@@ -44,6 +44,7 @@ data class UiState(
     val routeOnlyIndonesia: Boolean = false,
     val routeOnlyFifthFreedom: Boolean = false,
     val routeOnlySuites: Boolean = false,
+    val routeOnlyAriaSuite: Boolean = false,
     val routePreviewCabin: CabinClass = CabinClass.BUSINESS,
     val filteredRoutes: List<FlightRoute> = emptyList(),
     // Wallet
@@ -162,6 +163,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             routeOnlyIndonesia = false,
             routeOnlyFifthFreedom = false,
             routeOnlySuites = false,
+            routeOnlyAriaSuite = false,
             selectedTab = MainTab.ROUTES
         )
         applyRouteFilters()
@@ -184,6 +186,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     fun toggleOnlySuites() {
         _uiState.value = _uiState.value.copy(routeOnlySuites = !_uiState.value.routeOnlySuites)
+        applyRouteFilters()
+    }
+
+    fun toggleOnlyAriaSuite() {
+        _uiState.value = _uiState.value.copy(routeOnlyAriaSuite = !_uiState.value.routeOnlyAriaSuite)
         applyRouteFilters()
     }
 
@@ -213,6 +220,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     if (s.routeOnlyIndonesia && r.origin !in indoAirports && r.dest !in indoAirports) return@filter false
                     if (s.routeOnlyFifthFreedom && !r.isFifthFreedom) return@filter false
                     if (s.routeOnlySuites && !r.cabins.contains("S")) return@filter false
+                    if (s.routeOnlyAriaSuite && !r.cabins.contains("A")) return@filter false
                     if (q.isNotEmpty()) {
                         val oAp = db.airportMap[r.origin]
                         val dAp = db.airportMap[r.dest]

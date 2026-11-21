@@ -155,6 +155,11 @@ fun RoutesExplorerScreen(
                         onClick = { viewModel.toggleOnlySuites() },
                         label = { Text("A380 Suites", fontSize = 12.sp) }
                     )
+                    FilterChip(
+                        selected = state.routeOnlyAriaSuite,
+                        onClick = { viewModel.toggleOnlyAriaSuite() },
+                        label = { Text("Aria Suite (CX)", fontSize = 12.sp) }
+                    )
                 }
 
                 // Cabin preview selector
@@ -295,8 +300,23 @@ private fun RouteRowCard(
                             shape = RoundedCornerShape(6.dp)
                         ) {
                             Text(
-                                text = "Suites",
+                                text = "A380 Suites",
                                 color = Color(0xFF9D174D),
+                                fontSize = 10.sp,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.padding(horizontal = 5.dp, vertical = 1.dp)
+                            )
+                        }
+                    }
+                    if (route.cabins.contains("A")) {
+                        Spacer(Modifier.width(5.dp))
+                        Surface(
+                            color = Color(0xFFCCFBF1),
+                            shape = RoundedCornerShape(6.dp)
+                        ) {
+                            Text(
+                                text = "Aria Suite",
+                                color = Color(0xFF0F766E),
                                 fontSize = 10.sp,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(horizontal = 5.dp, vertical = 1.dp)

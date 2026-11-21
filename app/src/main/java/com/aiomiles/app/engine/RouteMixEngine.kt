@@ -65,7 +65,8 @@ object RouteMixEngine {
             val total = est.miles * mult
             val alName = db.airlineMap[route.airlineCode]?.name ?: route.airlineCode
             val badge = when {
-                matchedCabin == CabinClass.SUITES -> "A380 Suites Direct"
+                matchedCabin == CabinClass.SUITES -> "A380 Suites (${route.airlineCode})"
+                matchedCabin == CabinClass.ARIA_SUITE -> "CX Aria Suite Direct"
                 route.isFifthFreedom -> "Fifth Freedom Direct"
                 else -> "Nonstop ${route.alliance}"
             }
@@ -123,8 +124,11 @@ object RouteMixEngine {
                 val (r1, c1) = pair1
                 for ((prog2, pair2) in bestLeg2ByProgram) {
                     val (r2, c2) = pair2
-                    // If user strictly chose Suites, at least one leg must actually be Suites!
+                    // If user strictly chose A380 Suites or CX Aria Suite, at least one leg must feature that cabin!
                     if (cabin == CabinClass.SUITES && c1 != CabinClass.SUITES && c2 != CabinClass.SUITES) {
+                        continue
+                    }
+                    if (cabin == CabinClass.ARIA_SUITE && c1 != CabinClass.ARIA_SUITE && c2 != CabinClass.ARIA_SUITE) {
                         continue
                     }
 
@@ -155,36 +159,37 @@ object RouteMixEngine {
                     val splitTotal = m1 + m2
 
                     if (prog1 == prog2) {
-                        // SAME ALLIANCE: Calculate Through Single-PNR Award vs Split
-                        val isAllSQ = r1.airlineCode == "SQ" && r2.airlineCode == "SQ"
-                        val isAllCX = r1.airlineCode == "CX" && r2.airlineCode == "CX"
-                        val isAllGA = r1.airlineCode == "GA" && r2.airlineCode == "GA"
-                        val throughAirline = when {
-                            isAllSQ -> "SQ"
-                            isAllCX -> "CX"
-                            isAllGA -> "GA"
-                            else -> r2.airlineCode
-                        }
-                        val throughCabin = if (c1 == CabinClass.SUITES || c2 == CabinClass.SUITES) CabinClass.SUITES else cabin
-                        val isOneWorldMulti = prog1 == MilesProgram.ASIA_MILES && r1.airlineCode != r2.airlineCode
-                        val throughEst = AwardCalculator.calculateOneWay(
-                            program = prog1,
-                            airlineCode = throughAirline,
-                            origin = origin,
-                            dest = dest,
-                            distanceMi = combinedDist,
-                            cabin = throughCabin,
-                            useKfAdvantage = useKfAdvantage,
-                            isMultiCarrierOneWorld = isOneWorldMulti
-                        )
-                        val throughTotal = throughEst.miles * mult
-
                         val legPlan1 = LegPlan(r1, al1Name, origin.city, hubAirport.city, prog1, m1, est1.tierLabel, c1)
                         val legPlan2 = LegPlan(r2, al2Name, hubAirport.city, dest.city, prog2, m2, est2.tierLabel, c2)
 
-                        if (throughTotal <= splitTotal) {
+                        // KrisFlyer own-metal (Singapore Airlines SQ on both legs):
+                        // 1 PNR calculated from total combined distance/zones;
+                        // non-SQ KrisFlyer, GarudaMiles, and Asia Miles calculated per leg.
+                        val isKfSqOwnMetal1Pnr = prog1 == MilesProgram.KRISFLYER && r1.airlineCode == "SQ" && r2.airlineCode == "SQ"
+
+                        if (isKfSqOwnMetal1Pnr) {
+                            val throughCabin = when {
+                                c1 == CabinClass.SUITES || c2 == CabinClass.SUITES -> CabinClass.SUITES
+                                c1 == CabinClass.ARIA_SUITE || c2 == CabinClass.ARIA_SUITE -> CabinClass.ARIA_SUITE
+                                else -> cabin
+                            }
+                            val throughEst = AwardCalculator.calculateOneWay(
+                                program = prog1,
+                                airlineCode = "SQ",
+                                origin = origin,
+                                dest = dest,
+                                distanceMi = combinedDist,
+                                cabin = throughCabin,
+                                useKfAdvantage = useKfAdvantage,
+                                isMultiCarrierOneWorld = false
+                            )
+                            val throughTotal = throughEst.miles * mult
                             val saved = splitTotal - throughTotal
-                            val saveText = if (saved > 0) "Hemat ${formatMiles(saved)} mi vs pisah tiket" else "1 PNR terintegrasi"
+                            val saveText = when {
+                                saved > 0 -> "1 PNR SQ hemat ${formatMiles(saved)} mi"
+                                saved < 0 -> "1 PNR SQ (+${formatMiles(-saved)} mi vs per leg)"
+                                else -> "1 PNR SQ (total jarak)"
+                            }
                             val mixCabinNote = if (c1 != c2) " (Mix kabin ${c1.shortLabel}+${c2.shortLabel})" else ""
                             sameAllianceCandidates.add(
                                 ItineraryRecommendation(
@@ -194,13 +199,18 @@ object RouteMixEngine {
                                     totalMiles = throughTotal,
                                     totalDistanceMi = combinedDist * mult,
                                     milesByProgram = mapOf(prog1 to throughTotal),
-                                    highlightBadge = if (throughCabin == CabinClass.SUITES) "1 PNR + A380 Suites" else saveText,
-                                    explanation = "Redeem 1 tiket (through award) via $hubIata (${hubAirport.city}) dengan ${prog1.displayName}$mixCabinNote. ${throughEst.ruleSummary}.",
+                                    highlightBadge = if (throughCabin == CabinClass.SUITES) "1 PNR SQ + A380 Suites" else saveText,
+                                    explanation = "KrisFlyer own-metal Singapore Airlines (1 PNR) via $hubIata (${hubAirport.city}) dihitung berdasarkan total jarak gabungan ${formatMiles(combinedDist * mult)} mi$mixCabinNote. ${throughEst.ruleSummary}.",
                                     transferHub = hubIata
                                 )
                             )
                         } else {
-                            val saved = throughTotal - splitTotal
+                            // Non-SQ KrisFlyer, GarudaMiles, and Asia Miles: calculated per leg
+                            val perLegLabel = when (prog1) {
+                                MilesProgram.KRISFLYER -> "KF non-SQ dihitung per leg (${formatMiles(splitTotal)} mi)"
+                                MilesProgram.GARUDA_MILES -> "GarudaMiles dihitung per leg (${formatMiles(splitTotal)} mi)"
+                                MilesProgram.ASIA_MILES -> "Asia Miles dihitung per leg (${formatMiles(splitTotal)} mi)"
+                            }
                             sameAllianceCandidates.add(
                                 ItineraryRecommendation(
                                     id = "SAMES_${r1.airlineCode}_${hubIata}_${r2.airlineCode}",
@@ -209,8 +219,8 @@ object RouteMixEngine {
                                     totalMiles = splitTotal,
                                     totalDistanceMi = combinedDist * mult,
                                     milesByProgram = mapOf(prog1 to splitTotal),
-                                    highlightBadge = "Split 2 PNR hemat ${formatMiles(saved)} mi",
-                                    explanation = "Pisah tiket di $hubIata (${hubAirport.city}) dalam aliansi sama (${prog1.displayName}) lebih hemat ${formatMiles(saved)} miles dibanding 1 PNR (${formatMiles(throughTotal)} mi). Siapkan buffer transit aman.",
+                                    highlightBadge = perLegLabel,
+                                    explanation = "Untuk ${prog1.displayName} (${r1.airlineCode} + ${r2.airlineCode} via $hubIata), kebutuhan miles dihitung per leg: Leg 1 ${formatMiles(m1)} mi + Leg 2 ${formatMiles(m2)} mi = ${formatMiles(splitTotal)} mi.",
                                     transferHub = hubIata
                                 )
                             )
@@ -224,6 +234,7 @@ object RouteMixEngine {
                         val badge = when {
                             affordable -> "Saldo Mix Cukup!"
                             c1 == CabinClass.SUITES || c2 == CabinClass.SUITES -> "Mix + A380 Suites"
+                            c1 == CabinClass.ARIA_SUITE || c2 == CabinClass.ARIA_SUITE -> "Mix + CX Aria Suite"
                             else -> "Mix ${prog1.shortCode} + ${prog2.shortCode}"
                         }
                         crossAllianceCandidates.add(
@@ -312,7 +323,7 @@ object RouteMixEngine {
             var best: Pair<FlightRoute, CabinClass>? = null
             var bestScore = Int.MAX_VALUE
             for (r in candidates) {
-                val resolved = resolveCabinForLeg(r, requestedCabin, allowFallback = !isLongLeg || requestedCabin == CabinClass.SUITES)
+                val resolved = resolveCabinForLeg(r, requestedCabin, allowFallback = !isLongLeg || requestedCabin == CabinClass.SUITES || requestedCabin == CabinClass.ARIA_SUITE)
                     ?: continue
                 val exactMatchPenalty = if (resolved == requestedCabin) 0 else 50
                 val flagshipBonus = when (r.airlineCode) {
@@ -353,6 +364,11 @@ object RouteMixEngine {
             CabinClass.PREMIUM_ECONOMY -> when {
                 route.cabins.contains("Y") -> CabinClass.ECONOMY
                 route.cabins.contains("J") -> CabinClass.BUSINESS
+                else -> null
+            }
+            CabinClass.ARIA_SUITE -> when {
+                route.cabins.contains("J") -> CabinClass.BUSINESS
+                route.cabins.contains("Y") -> CabinClass.ECONOMY
                 else -> null
             }
             CabinClass.BUSINESS -> if (route.cabins.contains("Y")) CabinClass.ECONOMY else null

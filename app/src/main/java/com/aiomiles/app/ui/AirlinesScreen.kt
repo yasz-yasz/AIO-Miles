@@ -221,7 +221,8 @@ private fun AirlineCard(
                         "W" -> "Prem Eco"
                         "J" -> "Biz"
                         "F" -> "First"
-                        "S" -> "Suites"
+                        "S" -> "A380 Suites"
+                        "A" -> "Aria Suite"
                         else -> c
                     }
                     Surface(

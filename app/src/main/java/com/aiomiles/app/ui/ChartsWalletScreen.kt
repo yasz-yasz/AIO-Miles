@@ -135,7 +135,7 @@ fun ChartsWalletScreen(
             }
         }
 
-        // 2. AWARD CHARTS REFERENCE
+        // 2. AWARD CHARTS REFERENCE (UPDATED 2026)
         item {
             Card(
                 shape = RoundedCornerShape(16.dp),
@@ -143,7 +143,7 @@ fun ChartsWalletScreen(
             ) {
                 Column(modifier = Modifier.padding(14.dp)) {
                     Text(
-                        text = "Referensi Award Chart (Sekali Jalan)",
+                        text = "Referensi Award Chart 2026 (Sekali Jalan)",
                         style = MaterialTheme.typography.titleMedium
                     )
                     Spacer(Modifier.height(8.dp))
@@ -160,46 +160,77 @@ fun ChartsWalletScreen(
 
                     when (chartTab) {
                         MilesProgram.GARUDA_MILES -> {
-                            ChartHeader("Band Jarak (SkyTeam Partner)", GarudaColor)
-                            ChartRow("≤ 500 mi", "10.000", "20.000", "30.000")
-                            ChartRow("501 – 1.000 mi", "15.000", "30.000", "45.000")
-                            ChartRow("1.001 – 1.500 mi", "20.000", "40.000", "60.000")
-                            ChartRow("1.501 – 2.500 mi", "27.500", "55.000", "82.500")
-                            ChartRow("2.501 – 3.500 mi", "35.000", "70.000", "105.000")
-                            ChartRow("3.501 – 5.000 mi", "45.000", "90.000", "135.000")
-                            ChartRow("5.001 – 7.000 mi", "55.000", "110.000", "165.000")
-                            ChartRow("7.001 – 9.000 mi", "65.000", "130.000", "195.000")
-                            ChartRow("9.001+ mi", "80.000", "160.000", "240.000")
-                        }
-                        MilesProgram.KRISFLYER -> {
-                            ChartHeader("Dari Indonesia (Zona 2) — SQ Saver", KrisFlyerColor)
-                            ChartRow("Ke Singapura (Z1)", "8.500", "21.000", "30.500")
-                            ChartRow("Ke SE Asia Lain (Z3)", "13.500", "24.000", "33.500")
-                            ChartRow("Ke HKG / TPE (Z4)", "16.500", "34.000", "45.000")
-                            ChartRow("Ke PVG / PEK (Z5)", "21.500", "43.000", "58.500*")
-                            ChartRow("Ke Jepang / Korea (Z7)", "27.000", "52.000", "77.000")
-                            ChartRow("Ke SYD / MEL / AKL (Z9)", "30.500", "68.500", "93.500*")
-                            ChartRow("Ke Timur Tengah (Z10)", "29.000", "56.500", "85.000")
-                            ChartRow("Ke Eropa (Z11)", "42.000", "103.500", "141.000*")
-                            ChartRow("Ke AS Pantai Barat (Z12)", "44.000", "107.000", "148.500")
-                            ChartRow("Ke AS Pantai Timur (Z13)", "44.000", "111.500", "148.500*")
+                            ChartHeader("Garuda Own-Metal Internasional (Apr 2026, 1-Way)", GarudaColor)
+                            ChartRow("CGK–KUL / SUB–SIN", "12.500", "22.500", "43.200")
+                            ChartRow("CGK–SIN", "14.500", "28.000", "43.200")
+                            ChartRow("DPS–SIN", "15.000", "27.000", "49.500")
+                            ChartRow("CGK–BKK", "18.500", "33.500", "49.500")
+                            ChartRow("CGK–HKG / CAN", "25.000", "45.000", "77.700")
+                            ChartRow("CGK–PVG / DPS–SYD,MEL", "30.000", "54.000", "90.000")
+                            ChartRow("CGK/DPS–ICN,HND,NRT", "35.000", "63.000", "108.000")
+                            ChartRow("CGK–SYD / MEL", "42.000", "74.000", "108.000")
+                            ChartRow("CGK–JED / MED / DOH", "49.000", "89.000", "126.000")
+                            ChartRow("CGK–AMS", "50.000", "110.000", "190.000")
+                            Spacer(Modifier.height(10.dp))
+                            ChartHeader("Garuda Own-Metal Domestik Utama (Apr 2026, 1-Way)", GarudaColor)
+                            ChartRow("SUB–DPS / CGK–TKG", "4.800", "7.700–13.000", "12.700–25.400")
+                            ChartRow("CGK–SRG / SOC / PLM / PNK", "9.600", "15.400", "25.400")
+                            ChartRow("CGK–YIA / SUB", "10.500–11.500", "17.000–19.000", "25.400")
+                            ChartRow("CGK–BTH / PDG / PKU / LOP", "16.800", "27.500", "45.300")
+                            ChartRow("CGK–DPS", "17.900", "32.000", "45.300")
+                            ChartRow("CGK–BPN / LBJ / KNO / UPG", "21.600–23.500", "35.200–38.000", "58.000")
+                            ChartRow("CGK–BTJ / KOE / MDC / AMQ", "28.800", "42.500–47.300", "78.000")
+                            ChartRow("CGK–TTE / SOQ", "33.600", "49.500–55.000", "90.700")
+                            ChartRow("CGK–DJJ / TIM / MKQ", "40.800", "67.100", "110.700")
+                            Spacer(Modifier.height(10.dp))
+                            ChartHeader("SkyTeam / Partner Chart (Group A–I, 1-Way)", GarudaColor)
+                            ChartRow("Group A (1–1.000 mi)", "15.000", "25.000", "37.500")
+                            ChartRow("Group B (1.001–1.500 mi)", "17.500", "30.000", "45.000")
+                            ChartRow("Group C (1.501–2.000 mi)", "22.500", "37.500", "56.500")
+                            ChartRow("Group D (2.001–2.500 mi)", "27.500", "47.500", "71.500")
+                            ChartRow("Group E (2.501–3.000 mi)", "32.500", "57.500", "86.500")
+                            ChartRow("Group F (3.001–4.000 mi)", "37.500", "67.500", "101.500")
+                            ChartRow("Group G (4.001–6.000 mi)", "42.500", "75.000", "112.500")
+                            ChartRow("Group H (6.001–8.000 mi)", "52.500", "95.000", "142.500")
+                            ChartRow("Group I (8.001–10.000+ mi)", "57.500", "100.000", "150.000")
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                text = "*Tersedia SQ A380 Suites pada rute tertentu (SIN–LHR, SIN–SYD, SIN–FRA–JFK, SIN–PVG, SIN–HKG, SIN–DEL/BOM).",
+                                text = "Sesuai Tabel Penukaran Miles Garuda Indonesia (start Apr 2026) untuk Own-Metal (Economy X / Business O / First R) dan terpisah dari chart SkyTeam/Partner.",
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                        MilesProgram.KRISFLYER -> {
+                            ChartHeader("Dari Indonesia (Zona 2) — SQ Saver 2026", KrisFlyerColor)
+                            ChartRow("Ke Singapura (Z1)", "8.000", "22.000", "31.500")
+                            ChartRow("Ke SE Asia Lain (Z3)", "13.000", "25.000", "34.500")
+                            ChartRow("Ke HKG / TPE (Z4)", "16.000", "35.000", "46.500")
+                            ChartRow("Ke PVG / PEK (Z5)", "21.000", "44.500", "60.500*")
+                            ChartRow("Ke Jepang / Korea (Z7)", "25.500", "54.500", "81.000")
+                            ChartRow("Ke PER / DRW (Z8)", "20.500", "42.500", "60.500")
+                            ChartRow("Ke SYD / MEL / AKL (Z9)", "29.000", "72.000", "98.000*")
+                            ChartRow("Ke Timur Tengah / Afrika (Z10)", "28.500", "58.500", "88.000")
+                            ChartRow("Ke Eropa (Z11)", "44.000", "108.500", "148.000*")
+                            ChartRow("Ke AS Pantai Barat (Z12)", "44.000", "112.500", "154.000")
+                            ChartRow("Ke AS Pantai Timur (Z13)", "46.000", "117.000", "156.000*")
+                            Spacer(Modifier.height(6.dp))
+                            Text(
+                                text = "Mengacu pada skema KrisFlyer Saver/Advantage (efektif Nov 2025 / terverifikasi 2026). *Tersedia A380 Suites/First pada SQ (SIN–LHR/FRA/JFK/SYD/MEL/HKG/PVG/DEL/BOM/AKL/NRT/ZRH), LH (MUC), OZ (ICN), KE (ICN), QR (DOH), QF (SYD/MEL), BA (LHR), EY (AUH), & EK (DXB incl. DPS–DXB & Fifth Freedom).",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                         MilesProgram.ASIA_MILES -> {
-                            ChartHeader("Band Jarak (Cathay Pacific Standard)", AsiaMilesColor)
-                            ChartRow("Ultra-Short ≤750 mi", "7.500", "16.000", "25.000")
-                            ChartRow("Short 751–2.750 mi", "12.500", "28.000", "45.000")
-                            ChartRow("Medium 2.751–5.000 mi", "20.000", "58.000", "87.000")
-                            ChartRow("Long 5.001–7.500 mi", "27.000", "84.000", "125.000")
-                            ChartRow("Ultra-Long 7.501+ mi", "38.000", "110.000", "160.000")
+                            ChartHeader("Cathay Pacific Standard (Repricing 1 Mei 2026)", AsiaMilesColor)
+                            ChartRow("Ultra-Short ≤750 mi", "7.000", "16.000", "25.000")
+                            ChartRow("751–2.750 mi (Type 1)", "9.000", "27.000", "43.000")
+                            ChartRow("751–2.750 mi (Type 2)*", "13.000", "32.000", "50.000")
+                            ChartRow("Medium 2.751–5.000 mi", "20.000", "60.000", "90.000")
+                            ChartRow("Long 5.001–7.500 mi", "27.000", "91.000", "125.000")
+                            ChartRow("Ultra-Long 7.501+ mi", "38.000", "119.000", "160.000")
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                text = "Catatan: Mitra oneworld tunggal (JL, QR, BA, QF, MH, dll.) menggunakan tarif partner (~10–15% di atas CX). Multi-Carrier oneworld berlaku untuk 2+ maskapai oneworld.",
+                                text = "Repricing Asia Miles per 1 Mei 2026 (one-way). *Type 2 mencakup rute melibatkan Indonesia, Jepang, India, Bangladesh, Nepal, atau Sri Lanka pada pita 751–2.750 mi. Armada B777-300ER Aria Suite Business CX beroperasi pada rute HKG–LHR/SYD/MEL/YVR/SFO/HND/PEK/PVG/TPE/SIN/BKK.",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )

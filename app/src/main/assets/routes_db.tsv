@@ -817,7 +817,7 @@ AUH	BRU	EY	Mitra GarudaMiles	GarudaMiles	3210	Y,J,F	0
 AUH	CAI	EY	Mitra GarudaMiles	GarudaMiles	1478	Y,J,F	0
 AUH	CAI	MS	Star Alliance	KrisFlyer	1478	Y,J	0
 AUH	CCU	EY	Mitra GarudaMiles	GarudaMiles	2139	Y,J,F	0
-AUH	CDG	EY	Mitra GarudaMiles	GarudaMiles	3263	Y,J,F	0
+AUH	CDG	EY	Mitra GarudaMiles	GarudaMiles	3263	Y,J,F,S	0
 AUH	CGK	EY	Mitra GarudaMiles	GarudaMiles	4085	Y,J,F	0
 AUH	CMB	EY	Mitra GarudaMiles	GarudaMiles	2051	Y,J,F	0
 AUH	CMB	UL	oneworld	Asia Miles	2051	Y,J	0
@@ -844,7 +844,7 @@ AUH	IST	EY	Mitra GarudaMiles	GarudaMiles	1888	Y,J,F	0
 AUH	IST	TK	Star Alliance	KrisFlyer	1888	Y,J	0
 AUH	JED	EY	Mitra GarudaMiles	GarudaMiles	1003	Y,J,F	0
 AUH	JED	SV	SkyTeam	GarudaMiles	1003	Y,J,F	0
-AUH	JFK	EY	Mitra GarudaMiles	GarudaMiles	6855	Y,J,F	0
+AUH	JFK	EY	Mitra GarudaMiles	GarudaMiles	6855	Y,J,F,S	0
 AUH	JNB	EY	Mitra GarudaMiles	GarudaMiles	3914	Y,J,F	0
 AUH	KHI	EY	Mitra GarudaMiles	GarudaMiles	786	Y,J,F	0
 AUH	KIX	EY	Mitra GarudaMiles	GarudaMiles	4775	Y,J,F	0
@@ -852,7 +852,7 @@ AUH	KUL	EY	Mitra GarudaMiles	GarudaMiles	3472	Y,J,F	0
 AUH	KWI	EY	Mitra GarudaMiles	GarudaMiles	528	Y,J,F	0
 AUH	LHE	EY	Mitra GarudaMiles	GarudaMiles	1298	Y,J,F	0
 AUH	LHR	BA	oneworld	Asia Miles	3428	Y,W,J,F	0
-AUH	LHR	EY	Mitra GarudaMiles	GarudaMiles	3428	Y,J,F	0
+AUH	LHR	EY	Mitra GarudaMiles	GarudaMiles	3428	Y,J,F,S	0
 AUH	LIS	EY	Mitra GarudaMiles	GarudaMiles	3805	Y,J,F	0
 AUH	MAA	EY	Mitra GarudaMiles	GarudaMiles	1843	Y,J,F	0
 AUH	MAD	EY	Mitra GarudaMiles	GarudaMiles	3504	Y,J,F	0
@@ -866,19 +866,19 @@ AUH	MUC	EY	Mitra GarudaMiles	GarudaMiles	2846	Y,J,F	0
 AUH	MXP	EY	Mitra GarudaMiles	GarudaMiles	2929	Y,J,F	0
 AUH	NBO	EY	Mitra GarudaMiles	GarudaMiles	2139	Y,J,F	0
 AUH	NCE	EY	Mitra GarudaMiles	GarudaMiles	2973	Y,J,F	0
-AUH	NRT	EY	Mitra GarudaMiles	GarudaMiles	5026	Y,J,F	0
+AUH	NRT	EY	Mitra GarudaMiles	GarudaMiles	5026	Y,J,F,S	0
 AUH	ORD	EY	Mitra GarudaMiles	GarudaMiles	7263	Y,J,F	0
 AUH	PEK	EY	Mitra GarudaMiles	GarudaMiles	3701	Y,J,F	0
 AUH	PVG	EY	Mitra GarudaMiles	GarudaMiles	4070	Y,J,F	0
 AUH	RUH	EY	Mitra GarudaMiles	GarudaMiles	500	Y,J,F	0
 AUH	RUH	SV	SkyTeam	GarudaMiles	500	Y,J,F	0
 AUH	SEZ	EY	Mitra GarudaMiles	GarudaMiles	2012	Y,J,F	0
-AUH	SIN	EY	Mitra GarudaMiles	GarudaMiles	3657	Y,J,F	0
+AUH	SIN	EY	Mitra GarudaMiles	GarudaMiles	3657	Y,J,F,S	0
 AUH	SYD	EY	Mitra GarudaMiles	GarudaMiles	7495	Y,J,F	0
 AUH	TRV	EY	Mitra GarudaMiles	GarudaMiles	1836	Y,J,F	0
 AUH	VIE	EY	Mitra GarudaMiles	GarudaMiles	2636	Y,J,F	0
 AUH	WAW	EY	Mitra GarudaMiles	GarudaMiles	2604	Y,J,F	0
-AUH	YYZ	EY	Mitra GarudaMiles	GarudaMiles	6911	Y,J,F	0
+AUH	YYZ	EY	Mitra GarudaMiles	GarudaMiles	6911	Y,J,F,S	0
 AUH	ZRH	EY	Mitra GarudaMiles	GarudaMiles	2970	Y,J,F	0
 AUS	AMS	KL	SkyTeam	GarudaMiles	5077	Y,W,J	0
 AUS	ATL	DL	SkyTeam	GarudaMiles	811	Y,J	0
@@ -1139,7 +1139,7 @@ BKK	CTU	TG	Star Alliance	KrisFlyer	1184	Y,W,J	0
 BKK	DAC	TG	Star Alliance	KrisFlyer	974	Y,W,J	0
 BKK	DEL	AI	Star Alliance	KrisFlyer	1832	Y,W,J,F	0
 BKK	DEL	TG	Star Alliance	KrisFlyer	1832	Y,W,J,F	0
-BKK	DOH	QR	oneworld	Asia Miles	3281	Y,J,F	0
+BKK	DOH	QR	oneworld	Asia Miles	3281	Y,J,F,S	0
 BKK	DPS	TG	Star Alliance	KrisFlyer	1839	Y,W,J,F	0
 BKK	FCO	AZ	Star Alliance	KrisFlyer	5516	Y,W,J	0
 BKK	FOC	MF	SkyTeam	GarudaMiles	1489	Y,J,F	0
@@ -1149,7 +1149,7 @@ BKK	FUK	TG	Star Alliance	KrisFlyer	2314	Y,W,J,F	0
 BKK	HAN	TG	Star Alliance	KrisFlyer	618	Y,J	0
 BKK	HAN	VN	SkyTeam	GarudaMiles	618	Y,J	0
 BKK	HEL	AY	oneworld	Asia Miles	4913	Y,W,J	0
-BKK	HKG	CX	oneworld	Asia Miles	1049	Y,W,J,F	0
+BKK	HKG	CX	oneworld	Asia Miles	1049	Y,W,J,F,A	0
 BKK	HKG	ET	Star Alliance	KrisFlyer	1049	Y,J	1
 BKK	HKG	TG	Star Alliance	KrisFlyer	1049	Y,W,J	0
 BKK	HKG	UA	Star Alliance	KrisFlyer	1049	Y,W,J	1
@@ -1160,7 +1160,7 @@ BKK	HND	NH	Star Alliance	KrisFlyer	2851	Y,W,J,F	0
 BKK	HND	TG	Star Alliance	KrisFlyer	2851	Y,W,J,F	0
 BKK	HYD	TG	Star Alliance	KrisFlyer	1506	Y,W,J,F	0
 BKK	ICN	KE	SkyTeam	GarudaMiles	2278	Y,J,F	0
-BKK	ICN	OZ	Star Alliance	KrisFlyer	2278	Y,J,F	0
+BKK	ICN	OZ	Star Alliance	KrisFlyer	2278	Y,J,F,S	0
 BKK	ICN	TG	Star Alliance	KrisFlyer	2278	Y,W,J,F	0
 BKK	ISB	TG	Star Alliance	KrisFlyer	2224	Y,W,J,F	0
 BKK	IST	TG	Star Alliance	KrisFlyer	4668	Y,W,J,F	0
@@ -1190,7 +1190,7 @@ BKK	MCT	WY	oneworld	Asia Miles	2852	Y,J,F	0
 BKK	MEL	TG	Star Alliance	KrisFlyer	4556	Y,W,J,F	0
 BKK	MLE	PG	Mitra Asia Miles	Asia Miles	1968	Y,J	0
 BKK	MNL	TG	Star Alliance	KrisFlyer	1359	Y,W,J,F	0
-BKK	MUC	LH	Star Alliance	KrisFlyer	5468	Y,W,J,F	0
+BKK	MUC	LH	Star Alliance	KrisFlyer	5468	Y,W,J,F,S	0
 BKK	MUC	TG	Star Alliance	KrisFlyer	5468	Y,W,J,F	0
 BKK	MXP	TG	Star Alliance	KrisFlyer	5642	Y,W,J,F	0
 BKK	NBO	KQ	SkyTeam	GarudaMiles	4489	Y,J	0
@@ -1534,7 +1534,7 @@ BOS	LGA	B6	Mitra KrisFlyer	KrisFlyer	184	Y,J	0
 BOS	LGA	DL	SkyTeam	GarudaMiles	184	Y,J	0
 BOS	LGW	B6	Mitra KrisFlyer	KrisFlyer	3274	Y,J	0
 BOS	LHR	B6	Mitra KrisFlyer	KrisFlyer	3256	Y,J	0
-BOS	LHR	BA	oneworld	Asia Miles	3256	Y,W,J,F	0
+BOS	LHR	BA	oneworld	Asia Miles	3256	Y,W,J,F,S	0
 BOS	LHR	VS	SkyTeam	GarudaMiles	3256	Y,W,J	0
 BOS	LIM	DL	SkyTeam	GarudaMiles	3778	Y,W,J	0
 BOS	LIS	TP	Star Alliance	KrisFlyer	3184	Y,J	0
@@ -1550,7 +1550,7 @@ BOS	MIA	DL	SkyTeam	GarudaMiles	1260	Y,W,J	0
 BOS	MSP	B6	Mitra KrisFlyer	KrisFlyer	1121	Y,J	0
 BOS	MSP	DL	SkyTeam	GarudaMiles	1121	Y,W,J	0
 BOS	MTY	DL	SkyTeam	GarudaMiles	2005	Y,W,J	0
-BOS	MUC	LH	Star Alliance	KrisFlyer	3840	Y,W,J,F	0
+BOS	MUC	LH	Star Alliance	KrisFlyer	3840	Y,W,J,F,S	0
 BOS	NRT	JL	oneworld	Asia Miles	6686	Y,W,J,F	0
 BOS	OGG	DL	SkyTeam	GarudaMiles	5031	Y,W,J	0
 BOS	ORD	AA	oneworld	Asia Miles	864	Y,J	0
@@ -1888,7 +1888,7 @@ CDG	ATH	A3	Star Alliance	KrisFlyer	1310	Y,J	0
 CDG	ATH	AF	SkyTeam	GarudaMiles	1310	Y,W,J,F	0
 CDG	ATL	AF	SkyTeam	GarudaMiles	4384	Y,W,J,F	0
 CDG	ATL	DL	SkyTeam	GarudaMiles	4384	Y,W,J	0
-CDG	AUH	EY	Mitra GarudaMiles	GarudaMiles	3263	Y,J,F	0
+CDG	AUH	EY	Mitra GarudaMiles	GarudaMiles	3263	Y,J,F,S	0
 CDG	AUS	AF	SkyTeam	GarudaMiles	5099	Y,W,J,F	0
 CDG	AYT	AF	SkyTeam	GarudaMiles	1642	Y,W,J,F	0
 CDG	BAH	GF	Mitra Asia Miles	Asia Miles	2996	Y,J	0
@@ -1927,7 +1927,7 @@ CDG	DEL	AI	Star Alliance	KrisFlyer	4080	Y,W,J,F	0
 CDG	DEN	AF	SkyTeam	GarudaMiles	4868	Y,W,J,F	0
 CDG	DFW	AA	oneworld	Asia Miles	4936	Y,W,J,F	0
 CDG	DFW	AF	SkyTeam	GarudaMiles	4936	Y,W,J,F	0
-CDG	DOH	QR	oneworld	Asia Miles	3088	Y,J,F	0
+CDG	DOH	QR	oneworld	Asia Miles	3088	Y,J,F,S	0
 CDG	DSS	AF	SkyTeam	GarudaMiles	2620	Y,W,J,F	0
 CDG	DTW	AF	SkyTeam	GarudaMiles	3951	Y,W,J,F	0
 CDG	DTW	DL	SkyTeam	GarudaMiles	3951	Y,W,J	0
@@ -2947,7 +2947,7 @@ DEN	MIA	UA	Star Alliance	KrisFlyer	1708	Y,W,J	0
 DEN	MSP	DL	SkyTeam	GarudaMiles	679	Y,J	0
 DEN	MSP	UA	Star Alliance	KrisFlyer	679	Y,J	0
 DEN	MTY	UA	Star Alliance	KrisFlyer	1008	Y,W,J	0
-DEN	MUC	LH	Star Alliance	KrisFlyer	5211	Y,W,J,F	0
+DEN	MUC	LH	Star Alliance	KrisFlyer	5211	Y,W,J,F,S	0
 DEN	OGG	UA	Star Alliance	KrisFlyer	3298	Y,W,J	0
 DEN	ORD	AA	oneworld	Asia Miles	886	Y,J	0
 DEN	ORD	UA	Star Alliance	KrisFlyer	886	Y,J	0
@@ -3041,7 +3041,7 @@ DFW	LAX	DL	SkyTeam	GarudaMiles	1232	Y,W,J	0
 DFW	LAX	UA	Star Alliance	KrisFlyer	1232	Y,W,J	0
 DFW	LGA	AA	oneworld	Asia Miles	1386	Y,W,J,F	0
 DFW	LHR	AA	oneworld	Asia Miles	4740	Y,W,J,F	0
-DFW	LHR	BA	oneworld	Asia Miles	4740	Y,W,J,F	0
+DFW	LHR	BA	oneworld	Asia Miles	4740	Y,W,J,F,S	0
 DFW	LIM	AA	oneworld	Asia Miles	3371	Y,W,J,F	0
 DFW	MAD	AA	oneworld	Asia Miles	4954	Y,W,J,F	0
 DFW	MAD	IB	oneworld	Asia Miles	4954	Y,W,J	0
@@ -3078,7 +3078,7 @@ DFW	SJO	AA	oneworld	Asia Miles	1781	Y,W,J,F	0
 DFW	SLC	AA	oneworld	Asia Miles	988	Y,W,J	0
 DFW	SLC	DL	SkyTeam	GarudaMiles	988	Y,W,J	0
 DFW	SYD	AA	oneworld	Asia Miles	8580	Y,W,J,F	0
-DFW	SYD	QF	oneworld	Asia Miles	8580	Y,W,J,F	0
+DFW	SYD	QF	oneworld	Asia Miles	8580	Y,W,J,F,S	0
 DFW	TPA	AA	oneworld	Asia Miles	928	Y,W,J	0
 DFW	TPE	BR	Star Alliance	KrisFlyer	7705	Y,W,J	0
 DFW	UIO	AA	oneworld	Asia Miles	2586	Y,W,J,F	0
@@ -3146,7 +3146,7 @@ DOH	BEG	QR	oneworld	Asia Miles	2204	Y,J,F	0
 DOH	BER	QR	oneworld	Asia Miles	2723	Y,J,F	0
 DOH	BEY	ME	SkyTeam	GarudaMiles	1133	Y,J	0
 DOH	BEY	QR	oneworld	Asia Miles	1133	Y,J,F	0
-DOH	BKK	QR	oneworld	Asia Miles	3281	Y,J,F	0
+DOH	BKK	QR	oneworld	Asia Miles	3281	Y,J,F,S	0
 DOH	BLQ	QR	oneworld	Asia Miles	2607	Y,J,F	0
 DOH	BLR	QR	oneworld	Asia Miles	1891	Y,J,F	0
 DOH	BNE	QR	oneworld	Asia Miles	7662	Y,J,F	0
@@ -3159,7 +3159,7 @@ DOH	CAI	MS	Star Alliance	KrisFlyer	1279	Y,J	0
 DOH	CAI	QR	oneworld	Asia Miles	1279	Y,J,F	0
 DOH	CAN	QR	oneworld	Asia Miles	3851	Y,J,F	0
 DOH	CCU	QR	oneworld	Asia Miles	2326	Y,J,F	0
-DOH	CDG	QR	oneworld	Asia Miles	3088	Y,J,F	0
+DOH	CDG	QR	oneworld	Asia Miles	3088	Y,J,F,S	0
 DOH	CEB	QR	oneworld	Asia Miles	4820	Y,J,F	0
 DOH	CGK	GA	SkyTeam	GarudaMiles	4283	Y,J,F	0
 DOH	CGK	QR	oneworld	Asia Miles	4283	Y,J,F	0
@@ -3230,7 +3230,7 @@ DOH	LAX	QR	oneworld	Asia Miles	8293	Y,J,F	0
 DOH	LGW	QR	oneworld	Asia Miles	3240	Y,J,F	0
 DOH	LHE	QR	oneworld	Asia Miles	1448	Y,J,F	0
 DOH	LHR	BA	oneworld	Asia Miles	3257	Y,W,J,F	0
-DOH	LHR	QR	oneworld	Asia Miles	3257	Y,J,F	0
+DOH	LHR	QR	oneworld	Asia Miles	3257	Y,J,F,S	0
 DOH	LIN	QR	oneworld	Asia Miles	2719	Y,J,F	0
 DOH	LIS	QR	oneworld	Asia Miles	3612	Y,J,F	0
 DOH	LOS	QR	oneworld	Asia Miles	3435	Y,J,F	0
@@ -3262,7 +3262,7 @@ DOH	OSL	QR	oneworld	Asia Miles	3081	Y,J,F	0
 DOH	OTP	QR	oneworld	Asia Miles	1951	Y,J,F	0
 DOH	PEK	QR	oneworld	Asia Miles	3830	Y,J,F	0
 DOH	PEN	QR	oneworld	Asia Miles	3500	Y,J,F	0
-DOH	PER	QR	oneworld	Asia Miles	5797	Y,J,F	0
+DOH	PER	QR	oneworld	Asia Miles	5797	Y,J,F,S	0
 DOH	PHL	QR	oneworld	Asia Miles	6784	Y,J,F	0
 DOH	PKX	QR	oneworld	Asia Miles	3824	Y,J,F	0
 DOH	PMI	QR	oneworld	Asia Miles	2976	Y,J,F	0
@@ -3281,7 +3281,7 @@ DOH	SKG	QR	oneworld	Asia Miles	1953	Y,J,F	0
 DOH	SOF	QR	oneworld	Asia Miles	1999	Y,J,F	0
 DOH	SPU	QR	oneworld	Asia Miles	2349	Y,J,F	0
 DOH	STR	QR	oneworld	Asia Miles	2791	Y,J,F	0
-DOH	SYD	QR	oneworld	Asia Miles	7689	Y,J,F	0
+DOH	SYD	QR	oneworld	Asia Miles	7689	Y,J,F,S	0
 DOH	SZX	ZH	Star Alliance	KrisFlyer	3896	Y,J	0
 DOH	TUN	QR	oneworld	Asia Miles	2554	Y,J,F	0
 DOH	VCE	QR	oneworld	Asia Miles	2578	Y,J,F	0
@@ -3531,7 +3531,7 @@ DXB	ICN	KE	SkyTeam	GarudaMiles	4181	Y,J,F	0
 DXB	IST	TK	Star Alliance	KrisFlyer	1882	Y,J	0
 DXB	JED	SV	SkyTeam	GarudaMiles	1056	Y,J,F	0
 DXB	KMG	MU	SkyTeam	GarudaMiles	2958	Y,W,J,F	0
-DXB	LHR	BA	oneworld	Asia Miles	3416	Y,W,J,F	0
+DXB	LHR	BA	oneworld	Asia Miles	3416	Y,W,J,F,S	0
 DXB	LHR	VS	SkyTeam	GarudaMiles	3416	Y,W,J	0
 DXB	MCT	WY	oneworld	Asia Miles	216	Y,J	0
 DXB	MUC	LH	Star Alliance	KrisFlyer	2836	Y,W,J,F	0
@@ -4731,7 +4731,7 @@ HKG	AKL	NZ	Star Alliance	KrisFlyer	5698	Y,W,J	0
 HKG	AMS	CX	oneworld	Asia Miles	5763	Y,W,J,F	0
 HKG	AMS	KL	SkyTeam	GarudaMiles	5763	Y,W,J	0
 HKG	BCN	CX	oneworld	Asia Miles	6250	Y,W,J,F	0
-HKG	BKK	CX	oneworld	Asia Miles	1049	Y,W,J,F	0
+HKG	BKK	CX	oneworld	Asia Miles	1049	Y,W,J,F,A	0
 HKG	BKK	ET	Star Alliance	KrisFlyer	1049	Y,J	1
 HKG	BKK	TG	Star Alliance	KrisFlyer	1049	Y,W,J	0
 HKG	BKK	UA	Star Alliance	KrisFlyer	1049	Y,W,J	1
@@ -4775,7 +4775,7 @@ HKG	HAN	VN	SkyTeam	GarudaMiles	526	Y,J	0
 HKG	HEL	AY	oneworld	Asia Miles	4853	Y,W,J	0
 HKG	HGH	CX	oneworld	Asia Miles	680	Y,W,J,F	0
 HKG	HKT	CX	oneworld	Asia Miles	1427	Y,W,J,F	0
-HKG	HND	CX	oneworld	Asia Miles	1803	Y,W,J,F	0
+HKG	HND	CX	oneworld	Asia Miles	1803	Y,W,J,F,A	0
 HKG	HND	JL	oneworld	Asia Miles	1803	Y,W,J,F	0
 HKG	HND	NH	Star Alliance	KrisFlyer	1803	Y,W,J,F	0
 HKG	HYD	CX	oneworld	Asia Miles	2329	Y,W,J,F	0
@@ -4795,11 +4795,11 @@ HKG	KUL	MH	oneworld	Asia Miles	1580	Y,J,F	0
 HKG	LAX	CX	oneworld	Asia Miles	7248	Y,W,J,F	0
 HKG	LAX	UA	Star Alliance	KrisFlyer	7248	Y,W,J	0
 HKG	LHR	BA	oneworld	Asia Miles	5984	Y,W,J,F	0
-HKG	LHR	CX	oneworld	Asia Miles	5984	Y,W,J,F	0
+HKG	LHR	CX	oneworld	Asia Miles	5984	Y,W,J,F,A	0
 HKG	MAA	CX	oneworld	Asia Miles	2307	Y,W,J,F	0
 HKG	MAD	CX	oneworld	Asia Miles	6528	Y,W,J,F	0
 HKG	MAN	CX	oneworld	Asia Miles	5978	Y,W,J,F	0
-HKG	MEL	CX	oneworld	Asia Miles	4605	Y,W,J,F	0
+HKG	MEL	CX	oneworld	Asia Miles	4605	Y,W,J,F,A	0
 HKG	MEL	QF	oneworld	Asia Miles	4605	Y,W,J,F	0
 HKG	MNL	CX	oneworld	Asia Miles	712	Y,W,J,F	0
 HKG	MUC	CX	oneworld	Asia Miles	5605	Y,W,J,F	0
@@ -4813,38 +4813,38 @@ HKG	NRT	JL	oneworld	Asia Miles	1841	Y,W,J,F	0
 HKG	NRT	NH	Star Alliance	KrisFlyer	1841	Y,W,J,F	0
 HKG	ORD	CX	oneworld	Asia Miles	7781	Y,W,J,F	0
 HKG	PEK	CA	Star Alliance	KrisFlyer	1238	Y,W,J,F	0
-HKG	PEK	CX	oneworld	Asia Miles	1238	Y,W,J,F	0
+HKG	PEK	CX	oneworld	Asia Miles	1238	Y,W,J,F,A	0
 HKG	PEN	CX	oneworld	Asia Miles	1487	Y,W,J,F	0
 HKG	PER	CX	oneworld	Asia Miles	3751	Y,W,J,F	0
 HKG	PNH	CX	oneworld	Asia Miles	955	Y,W,J,F	0
-HKG	PVG	CX	oneworld	Asia Miles	780	Y,W,J,F	0
+HKG	PVG	CX	oneworld	Asia Miles	780	Y,W,J,F,A	0
 HKG	PVG	HO	Mitra KrisFlyer	KrisFlyer	780	Y,J	0
 HKG	PVG	MU	SkyTeam	GarudaMiles	780	Y,J	0
 HKG	RUH	CX	oneworld	Asia Miles	4214	Y,W,J,F	0
-HKG	SFO	CX	oneworld	Asia Miles	6914	Y,W,J,F	0
+HKG	SFO	CX	oneworld	Asia Miles	6914	Y,W,J,F,A	0
 HKG	SFO	UA	Star Alliance	KrisFlyer	6914	Y,W,J	0
 HKG	SGN	CX	oneworld	Asia Miles	928	Y,W,J,F	0
 HKG	SGN	UA	Star Alliance	KrisFlyer	928	Y,W,J	1
 HKG	SGN	VN	SkyTeam	GarudaMiles	928	Y,W,J	0
 HKG	SHA	CX	oneworld	Asia Miles	765	Y,W,J,F	0
 HKG	SHA	MU	SkyTeam	GarudaMiles	765	Y,J	0
-HKG	SIN	CX	oneworld	Asia Miles	1593	Y,W,J,F	0
+HKG	SIN	CX	oneworld	Asia Miles	1593	Y,W,J,F,A	0
 HKG	SIN	SQ	Star Alliance	KrisFlyer	1593	Y,W,J,F,S	0
 HKG	SIN	TR	Mitra KrisFlyer	KrisFlyer	1593	Y,W	0
 HKG	SUB	CX	oneworld	Asia Miles	2053	Y,W,J,F	0
-HKG	SYD	CX	oneworld	Asia Miles	4594	Y,W,J,F	0
+HKG	SYD	CX	oneworld	Asia Miles	4594	Y,W,J,F,A	0
 HKG	SYD	QF	oneworld	Asia Miles	4594	Y,W,J,F	0
 HKG	TAO	CX	oneworld	Asia Miles	1040	Y,W,J,F	0
 HKG	TPE	BR	Star Alliance	KrisFlyer	501	Y,W,J	0
 HKG	TPE	CI	SkyTeam	GarudaMiles	501	Y,W,J	0
-HKG	TPE	CX	oneworld	Asia Miles	501	Y,W,J,F	0
+HKG	TPE	CX	oneworld	Asia Miles	501	Y,W,J,F,A	0
 HKG	USM	PG	Mitra Asia Miles	Asia Miles	1273	Y,J	0
 HKG	WUH	CX	oneworld	Asia Miles	586	Y,W,J,F	0
 HKG	XIY	CX	oneworld	Asia Miles	895	Y,W,J,F	0
 HKG	XMN	CX	oneworld	Asia Miles	308	Y,W,J,F	0
 HKG	XMN	MF	SkyTeam	GarudaMiles	308	Y,J	0
 HKG	YVR	AC	Star Alliance	KrisFlyer	6381	Y,W,J	0
-HKG	YVR	CX	oneworld	Asia Miles	6381	Y,W,J,F	0
+HKG	YVR	CX	oneworld	Asia Miles	6381	Y,W,J,F,A	0
 HKG	YYZ	CX	oneworld	Asia Miles	7797	Y,W,J,F	0
 HKG	ZRH	CX	oneworld	Asia Miles	5766	Y,W,J,F	0
 HKG	ZRH	LX	Star Alliance	KrisFlyer	5766	Y,W,J,F	0
@@ -4908,7 +4908,7 @@ HND	HEL	AY	oneworld	Asia Miles	4862	Y,W,J	0
 HND	HEL	JL	oneworld	Asia Miles	4862	Y,W,J,F	0
 HND	HIJ	JL	oneworld	Asia Miles	396	Y,W,J	0
 HND	HIJ	NH	Star Alliance	KrisFlyer	396	Y,W,J	0
-HND	HKG	CX	oneworld	Asia Miles	1803	Y,W,J,F	0
+HND	HKG	CX	oneworld	Asia Miles	1803	Y,W,J,F,A	0
 HND	HKG	JL	oneworld	Asia Miles	1803	Y,W,J,F	0
 HND	HKG	NH	Star Alliance	KrisFlyer	1803	Y,W,J,F	0
 HND	HNL	HA	oneworld	Asia Miles	3848	Y,J	0
@@ -5153,7 +5153,7 @@ IAD	LAX	AS	oneworld	Asia Miles	2283	Y,J	0
 IAD	LAX	DL	SkyTeam	GarudaMiles	2283	Y,W,J	0
 IAD	LAX	UA	Star Alliance	KrisFlyer	2283	Y,W,J	0
 IAD	LGA	UA	Star Alliance	KrisFlyer	228	Y,J	0
-IAD	LHR	BA	oneworld	Asia Miles	3667	Y,W,J,F	0
+IAD	LHR	BA	oneworld	Asia Miles	3667	Y,W,J,F,S	0
 IAD	LHR	UA	Star Alliance	KrisFlyer	3667	Y,W,J	0
 IAD	LHR	VS	SkyTeam	GarudaMiles	3667	Y,W,J	0
 IAD	LIM	UA	Star Alliance	KrisFlyer	3522	Y,W,J	0
@@ -5171,7 +5171,7 @@ IAD	MIA	UA	Star Alliance	KrisFlyer	924	Y,W,J	0
 IAD	MSP	DL	SkyTeam	GarudaMiles	906	Y,W,J	0
 IAD	MSP	UA	Star Alliance	KrisFlyer	906	Y,W,J	0
 IAD	MTY	UA	Star Alliance	KrisFlyer	1598	Y,W,J	0
-IAD	MUC	LH	Star Alliance	KrisFlyer	4251	Y,W,J,F	0
+IAD	MUC	LH	Star Alliance	KrisFlyer	4251	Y,W,J,F,S	0
 IAD	MUC	UA	Star Alliance	KrisFlyer	4251	Y,W,J	0
 IAD	OGG	UA	Star Alliance	KrisFlyer	4747	Y,W,J	0
 IAD	ORD	AA	oneworld	Asia Miles	587	Y,J	0
@@ -5325,7 +5325,7 @@ ICN	BCN	KE	SkyTeam	GarudaMiles	5962	Y,J,F	0
 ICN	BCN	OZ	Star Alliance	KrisFlyer	5962	Y,J,F	0
 ICN	BKI	KE	SkyTeam	GarudaMiles	2274	Y,J,F	0
 ICN	BKK	KE	SkyTeam	GarudaMiles	2278	Y,J,F	0
-ICN	BKK	OZ	Star Alliance	KrisFlyer	2278	Y,J,F	0
+ICN	BKK	OZ	Star Alliance	KrisFlyer	2278	Y,J,F,S	0
 ICN	BKK	TG	Star Alliance	KrisFlyer	2278	Y,W,J,F	0
 ICN	BNE	KE	SkyTeam	GarudaMiles	4803	Y,J,F	0
 ICN	BOM	KE	SkyTeam	GarudaMiles	3447	Y,J,F	0
@@ -5399,7 +5399,7 @@ ICN	IAD	KE	SkyTeam	GarudaMiles	6943	Y,J,F	0
 ICN	IST	KE	SkyTeam	GarudaMiles	4923	Y,J,F	0
 ICN	IST	OZ	Star Alliance	KrisFlyer	4923	Y,J,F	0
 ICN	IST	TK	Star Alliance	KrisFlyer	4923	Y,J	0
-ICN	JFK	KE	SkyTeam	GarudaMiles	6891	Y,J,F	0
+ICN	JFK	KE	SkyTeam	GarudaMiles	6891	Y,J,F,S	0
 ICN	JFK	OZ	Star Alliance	KrisFlyer	6891	Y,J,F	0
 ICN	KHH	CI	SkyTeam	GarudaMiles	1090	Y,W,J	0
 ICN	KHH	KE	SkyTeam	GarudaMiles	1090	Y,J	0
@@ -5411,8 +5411,8 @@ ICN	KTM	KE	SkyTeam	GarudaMiles	2464	Y,J,F	0
 ICN	KUL	KE	SkyTeam	GarudaMiles	2865	Y,J,F	0
 ICN	KUL	MH	oneworld	Asia Miles	2865	Y,J,F	0
 ICN	LAS	KE	SkyTeam	GarudaMiles	6008	Y,J,F	0
-ICN	LAX	KE	SkyTeam	GarudaMiles	5982	Y,J,F	0
-ICN	LAX	OZ	Star Alliance	KrisFlyer	5982	Y,J,F	0
+ICN	LAX	KE	SkyTeam	GarudaMiles	5982	Y,J,F,S	0
+ICN	LAX	OZ	Star Alliance	KrisFlyer	5982	Y,J,F,S	0
 ICN	LHR	KE	SkyTeam	GarudaMiles	5506	Y,J,F	0
 ICN	LHR	OZ	Star Alliance	KrisFlyer	5506	Y,J,F	0
 ICN	LHR	VS	SkyTeam	GarudaMiles	5506	Y,W,J	0
@@ -5429,7 +5429,7 @@ ICN	NKG	KE	SkyTeam	GarudaMiles	584	Y,J	0
 ICN	NKG	OZ	Star Alliance	KrisFlyer	584	Y,J	0
 ICN	NRT	ET	Star Alliance	KrisFlyer	782	Y,J	1
 ICN	NRT	KE	SkyTeam	GarudaMiles	782	Y,J	0
-ICN	NRT	OZ	Star Alliance	KrisFlyer	782	Y,J	0
+ICN	NRT	OZ	Star Alliance	KrisFlyer	782	Y,J,F,S	0
 ICN	OKA	KE	SkyTeam	GarudaMiles	781	Y,J	0
 ICN	OKA	OZ	Star Alliance	KrisFlyer	781	Y,J	0
 ICN	ORD	KE	SkyTeam	GarudaMiles	6537	Y,J,F	0
@@ -5476,7 +5476,7 @@ ICN	TAS	KE	SkyTeam	GarudaMiles	3010	Y,J,F	0
 ICN	TAS	OZ	Star Alliance	KrisFlyer	3010	Y,J,F	0
 ICN	TPE	BR	Star Alliance	KrisFlyer	909	Y,W,J	0
 ICN	TPE	CI	SkyTeam	GarudaMiles	909	Y,W,J	0
-ICN	TPE	KE	SkyTeam	GarudaMiles	909	Y,J	0
+ICN	TPE	KE	SkyTeam	GarudaMiles	909	Y,J,F,S	0
 ICN	TPE	OZ	Star Alliance	KrisFlyer	909	Y,J	0
 ICN	TPE	TR	Mitra KrisFlyer	KrisFlyer	909	Y,W	1
 ICN	VIE	KE	SkyTeam	GarudaMiles	5125	Y,J,F	0
@@ -5784,7 +5784,7 @@ JFK	ATL	AA	oneworld	Asia Miles	759	Y,J	0
 JFK	ATL	B6	Mitra KrisFlyer	KrisFlyer	759	Y,J	0
 JFK	ATL	DL	SkyTeam	GarudaMiles	759	Y,J	0
 JFK	AUA	B6	Mitra KrisFlyer	KrisFlyer	1958	Y,J	0
-JFK	AUH	EY	Mitra GarudaMiles	GarudaMiles	6855	Y,J,F	0
+JFK	AUH	EY	Mitra GarudaMiles	GarudaMiles	6855	Y,J,F,S	0
 JFK	AUS	AA	oneworld	Asia Miles	1519	Y,W,J,F	0
 JFK	AUS	B6	Mitra KrisFlyer	KrisFlyer	1519	Y,J	0
 JFK	AUS	DL	SkyTeam	GarudaMiles	1519	Y,W,J	0
@@ -5883,7 +5883,7 @@ JFK	IAH	AA	oneworld	Asia Miles	1415	Y,W,J,F	0
 JFK	IAH	B6	Mitra KrisFlyer	KrisFlyer	1415	Y,J	0
 JFK	IAH	DL	SkyTeam	GarudaMiles	1415	Y,W,J	0
 JFK	IAH	UA	Star Alliance	KrisFlyer	1415	Y,W,J	0
-JFK	ICN	KE	SkyTeam	GarudaMiles	6891	Y,J,F	0
+JFK	ICN	KE	SkyTeam	GarudaMiles	6891	Y,J,F,S	0
 JFK	ICN	OZ	Star Alliance	KrisFlyer	6891	Y,J,F	0
 JFK	IST	TK	Star Alliance	KrisFlyer	4988	Y,J	0
 JFK	JED	SV	SkyTeam	GarudaMiles	6354	Y,J,F	0
@@ -6038,7 +6038,7 @@ JNB	HKG	CX	oneworld	Asia Miles	6633	Y,W,J,F	0
 JNB	HRE	SA	Star Alliance	KrisFlyer	596	Y,J	0
 JNB	IST	TK	Star Alliance	KrisFlyer	4658	Y,J	0
 JNB	JED	SV	SkyTeam	GarudaMiles	3384	Y,J,F	0
-JNB	LHR	BA	oneworld	Asia Miles	5639	Y,W,J,F	0
+JNB	LHR	BA	oneworld	Asia Miles	5639	Y,W,J,F,S	0
 JNB	LHR	VS	SkyTeam	GarudaMiles	5639	Y,W,J	0
 JNB	LOS	SA	Star Alliance	KrisFlyer	2811	Y,J	0
 JNB	LUN	SA	Star Alliance	KrisFlyer	747	Y,J	0
@@ -6047,7 +6047,7 @@ JNB	NBO	KQ	SkyTeam	GarudaMiles	1809	Y,J	0
 JNB	PER	QF	oneworld	Asia Miles	5163	Y,W,J,F	0
 JNB	PER	SA	Star Alliance	KrisFlyer	5163	Y,J	0
 JNB	SIN	SQ	Star Alliance	KrisFlyer	5379	Y,W,J,F	0
-JNB	SYD	QF	oneworld	Asia Miles	6850	Y,W,J,F	0
+JNB	SYD	QF	oneworld	Asia Miles	6850	Y,W,J,F,S	0
 JNB	WDH	SA	Star Alliance	KrisFlyer	724	Y,J	0
 JNB	ZRH	LX	Star Alliance	KrisFlyer	5231	Y,W,J,F	0
 JTR	LGW	BA	oneworld	Asia Miles	1622	Y,W,J,F	0
@@ -6495,8 +6495,8 @@ LAX	IAD	UA	Star Alliance	KrisFlyer	2283	Y,W,J	0
 LAX	IAH	AA	oneworld	Asia Miles	1377	Y,W,J,F	0
 LAX	IAH	DL	SkyTeam	GarudaMiles	1377	Y,W,J	0
 LAX	IAH	UA	Star Alliance	KrisFlyer	1377	Y,W,J	0
-LAX	ICN	KE	SkyTeam	GarudaMiles	5982	Y,J,F	0
-LAX	ICN	OZ	Star Alliance	KrisFlyer	5982	Y,J,F	0
+LAX	ICN	KE	SkyTeam	GarudaMiles	5982	Y,J,F,S	0
+LAX	ICN	OZ	Star Alliance	KrisFlyer	5982	Y,J,F,S	0
 LAX	IST	TK	Star Alliance	KrisFlyer	6837	Y,J	0
 LAX	JED	SV	SkyTeam	GarudaMiles	8320	Y,J,F	0
 LAX	JFK	AA	oneworld	Asia Miles	2470	Y,W,J,F	0
@@ -6531,7 +6531,7 @@ LAX	MCO	UA	Star Alliance	KrisFlyer	2214	Y,W,J	0
 LAX	MDE	AA	oneworld	Asia Miles	3347	Y,W,J,F	0
 LAX	MDE	DL	SkyTeam	GarudaMiles	3347	Y,W,J	0
 LAX	MDE	UA	Star Alliance	KrisFlyer	3347	Y,W,J	0
-LAX	MEL	QF	oneworld	Asia Miles	7927	Y,W,J,F	0
+LAX	MEL	QF	oneworld	Asia Miles	7927	Y,W,J,F,S	0
 LAX	MEL	UA	Star Alliance	KrisFlyer	7927	Y,W,J	0
 LAX	MEX	AA	oneworld	Asia Miles	1553	Y,W,J,F	0
 LAX	MEX	AM	SkyTeam	GarudaMiles	1553	Y,J	0
@@ -6547,7 +6547,7 @@ LAX	MSP	UA	Star Alliance	KrisFlyer	1533	Y,W,J	0
 LAX	MTY	AA	oneworld	Asia Miles	1231	Y,W,J,F	0
 LAX	MTY	DL	SkyTeam	GarudaMiles	1231	Y,W,J	0
 LAX	MTY	UA	Star Alliance	KrisFlyer	1231	Y,W,J	0
-LAX	MUC	LH	Star Alliance	KrisFlyer	5975	Y,W,J,F	0
+LAX	MUC	LH	Star Alliance	KrisFlyer	5975	Y,W,J,F,S	0
 LAX	NAN	FJ	oneworld	Asia Miles	5525	Y,J	0
 LAX	NRT	JL	oneworld	Asia Miles	5439	Y,W,J,F	0
 LAX	NRT	NH	Star Alliance	KrisFlyer	5439	Y,W,J,F	0
@@ -6616,7 +6616,7 @@ LAX	SLC	DL	SkyTeam	GarudaMiles	590	Y,J	0
 LAX	SLC	UA	Star Alliance	KrisFlyer	590	Y,J	0
 LAX	SYD	AA	oneworld	Asia Miles	7494	Y,W,J,F	0
 LAX	SYD	DL	SkyTeam	GarudaMiles	7494	Y,W,J	0
-LAX	SYD	QF	oneworld	Asia Miles	7494	Y,W,J,F	0
+LAX	SYD	QF	oneworld	Asia Miles	7494	Y,W,J,F,S	0
 LAX	SYD	UA	Star Alliance	KrisFlyer	7494	Y,W,J	0
 LAX	TPA	AA	oneworld	Asia Miles	2154	Y,W,J,F	0
 LAX	TPA	DL	SkyTeam	GarudaMiles	2154	Y,W,J	0
@@ -6774,7 +6774,7 @@ LHR	ATL	BA	oneworld	Asia Miles	4201	Y,W,J,F	0
 LHR	ATL	DL	SkyTeam	GarudaMiles	4201	Y,W,J	0
 LHR	ATL	VS	SkyTeam	GarudaMiles	4201	Y,W,J	0
 LHR	AUH	BA	oneworld	Asia Miles	3428	Y,W,J,F	0
-LHR	AUH	EY	Mitra GarudaMiles	GarudaMiles	3428	Y,J,F	0
+LHR	AUH	EY	Mitra GarudaMiles	GarudaMiles	3428	Y,J,F,S	0
 LHR	AUS	BA	oneworld	Asia Miles	4904	Y,W,J,F	0
 LHR	AYT	BA	oneworld	Asia Miles	1826	Y,W,J,F	0
 LHR	BAH	BA	oneworld	Asia Miles	3165	Y,W,J,F	0
@@ -6794,7 +6794,7 @@ LHR	BOM	AI	Star Alliance	KrisFlyer	4482	Y,W,J,F	0
 LHR	BOM	BA	oneworld	Asia Miles	4482	Y,W,J,F	0
 LHR	BOM	VS	SkyTeam	GarudaMiles	4482	Y,W,J	0
 LHR	BOS	B6	Mitra KrisFlyer	KrisFlyer	3256	Y,J	0
-LHR	BOS	BA	oneworld	Asia Miles	3256	Y,W,J,F	0
+LHR	BOS	BA	oneworld	Asia Miles	3256	Y,W,J,F,S	0
 LHR	BOS	VS	SkyTeam	GarudaMiles	3256	Y,W,J	0
 LHR	BRU	BA	oneworld	Asia Miles	217	Y,J	0
 LHR	BRU	SN	Star Alliance	KrisFlyer	217	Y,J	0
@@ -6819,14 +6819,14 @@ LHR	DEL	BA	oneworld	Asia Miles	4183	Y,W,J,F	0
 LHR	DEL	VS	SkyTeam	GarudaMiles	4183	Y,W,J	0
 LHR	DEN	BA	oneworld	Asia Miles	4659	Y,W,J,F	0
 LHR	DFW	AA	oneworld	Asia Miles	4740	Y,W,J,F	0
-LHR	DFW	BA	oneworld	Asia Miles	4740	Y,W,J,F	0
+LHR	DFW	BA	oneworld	Asia Miles	4740	Y,W,J,F,S	0
 LHR	DOH	BA	oneworld	Asia Miles	3257	Y,W,J,F	0
-LHR	DOH	QR	oneworld	Asia Miles	3257	Y,J,F	0
+LHR	DOH	QR	oneworld	Asia Miles	3257	Y,J,F,S	0
 LHR	DTW	BA	oneworld	Asia Miles	3756	Y,W,J,F	0
 LHR	DTW	DL	SkyTeam	GarudaMiles	3756	Y,W,J	0
 LHR	DUB	BA	oneworld	Asia Miles	279	Y,J	0
 LHR	DUS	BA	oneworld	Asia Miles	312	Y,J	0
-LHR	DXB	BA	oneworld	Asia Miles	3416	Y,W,J,F	0
+LHR	DXB	BA	oneworld	Asia Miles	3416	Y,W,J,F,S	0
 LHR	DXB	VS	SkyTeam	GarudaMiles	3416	Y,W,J	0
 LHR	EDI	BA	oneworld	Asia Miles	332	Y,J	0
 LHR	EWR	BA	oneworld	Asia Miles	3457	Y,W,J,F	0
@@ -6847,12 +6847,12 @@ LHR	HAN	VN	SkyTeam	GarudaMiles	5740	Y,W,J	0
 LHR	HEL	AY	oneworld	Asia Miles	1148	Y,W,J	0
 LHR	HEL	BA	oneworld	Asia Miles	1148	Y,W,J	0
 LHR	HKG	BA	oneworld	Asia Miles	5984	Y,W,J,F	0
-LHR	HKG	CX	oneworld	Asia Miles	5984	Y,W,J,F	0
+LHR	HKG	CX	oneworld	Asia Miles	5984	Y,W,J,F,A	0
 LHR	HND	BA	oneworld	Asia Miles	5960	Y,W,J,F	0
 LHR	HND	JL	oneworld	Asia Miles	5960	Y,W,J,F	0
 LHR	HND	NH	Star Alliance	KrisFlyer	5960	Y,W,J,F	0
 LHR	HYD	BA	oneworld	Asia Miles	4817	Y,W,J,F	0
-LHR	IAD	BA	oneworld	Asia Miles	3667	Y,W,J,F	0
+LHR	IAD	BA	oneworld	Asia Miles	3667	Y,W,J,F,S	0
 LHR	IAD	UA	Star Alliance	KrisFlyer	3667	Y,W,J	0
 LHR	IAD	VS	SkyTeam	GarudaMiles	3667	Y,W,J	0
 LHR	IAH	BA	oneworld	Asia Miles	4824	Y,W,J,F	0
@@ -6868,7 +6868,7 @@ LHR	JFK	B6	Mitra KrisFlyer	KrisFlyer	3442	Y,J	0
 LHR	JFK	BA	oneworld	Asia Miles	3442	Y,W,J,F	0
 LHR	JFK	DL	SkyTeam	GarudaMiles	3442	Y,W,J	0
 LHR	JFK	VS	SkyTeam	GarudaMiles	3442	Y,W,J	0
-LHR	JNB	BA	oneworld	Asia Miles	5639	Y,W,J,F	0
+LHR	JNB	BA	oneworld	Asia Miles	5639	Y,W,J,F,S	0
 LHR	JNB	VS	SkyTeam	GarudaMiles	5639	Y,W,J	0
 LHR	KEF	BA	oneworld	Asia Miles	1178	Y,W,J	0
 LHR	KRK	BA	oneworld	Asia Miles	887	Y,J	0
@@ -6905,7 +6905,7 @@ LHR	MCT	WY	oneworld	Asia Miles	3625	Y,J,F	0
 LHR	MEX	AM	SkyTeam	GarudaMiles	5533	Y,J	0
 LHR	MEX	BA	oneworld	Asia Miles	5533	Y,W,J,F	0
 LHR	MIA	AA	oneworld	Asia Miles	4417	Y,W,J,F	0
-LHR	MIA	BA	oneworld	Asia Miles	4417	Y,W,J,F	0
+LHR	MIA	BA	oneworld	Asia Miles	4417	Y,W,J,F,S	0
 LHR	MIA	VS	SkyTeam	GarudaMiles	4417	Y,W,J	0
 LHR	MLA	BA	oneworld	Asia Miles	1306	Y,W,J,F	0
 LHR	MLE	BA	oneworld	Asia Miles	5305	Y,W,J,F	0
@@ -6949,11 +6949,11 @@ LHR	SCL	LA	Mitra Asia Miles	Asia Miles	7241	Y,W,J	0
 LHR	SEA	BA	oneworld	Asia Miles	4786	Y,W,J,F	0
 LHR	SEA	DL	SkyTeam	GarudaMiles	4786	Y,W,J	0
 LHR	SEA	VS	SkyTeam	GarudaMiles	4786	Y,W,J	0
-LHR	SFO	BA	oneworld	Asia Miles	5354	Y,W,J,F	0
+LHR	SFO	BA	oneworld	Asia Miles	5354	Y,W,J,F,S	0
 LHR	SFO	UA	Star Alliance	KrisFlyer	5354	Y,W,J	0
 LHR	SFO	VS	SkyTeam	GarudaMiles	5354	Y,W,J	0
 LHR	SGN	VN	SkyTeam	GarudaMiles	6350	Y,W,J	0
-LHR	SIN	BA	oneworld	Asia Miles	6761	Y,W,J,F	0
+LHR	SIN	BA	oneworld	Asia Miles	6761	Y,W,J,F,S	0
 LHR	SIN	QF	oneworld	Asia Miles	6761	Y,W,J,F	1
 LHR	SIN	SQ	Star Alliance	KrisFlyer	6761	Y,W,J,F,S	0
 LHR	SKG	BA	oneworld	Asia Miles	1346	Y,W,J,F	0
@@ -6962,7 +6962,7 @@ LHR	SOF	BA	oneworld	Asia Miles	1268	Y,W,J,F	0
 LHR	SPU	BA	oneworld	Asia Miles	951	Y,W,J	0
 LHR	STR	BA	oneworld	Asia Miles	470	Y,J	0
 LHR	SYD	BA	oneworld	Asia Miles	10576	Y,W,J,F	0
-LHR	SYD	QF	oneworld	Asia Miles	10576	Y,W,J,F	0
+LHR	SYD	QF	oneworld	Asia Miles	10576	Y,W,J,F,S	0
 LHR	SZX	ZH	Star Alliance	KrisFlyer	5961	Y,J	0
 LHR	TLL	BA	oneworld	Asia Miles	1123	Y,W,J	0
 LHR	TPA	BA	oneworld	Asia Miles	4403	Y,W,J,F	0
@@ -7626,11 +7626,11 @@ MEL	DRW	VA	Mitra KrisFlyer	KrisFlyer	1946	Y,J	0
 MEL	HAN	VN	SkyTeam	GarudaMiles	4795	Y,W,J	0
 MEL	HBA	QF	oneworld	Asia Miles	384	Y,J	0
 MEL	HBA	VA	Mitra KrisFlyer	KrisFlyer	384	Y,J	0
-MEL	HKG	CX	oneworld	Asia Miles	4605	Y,W,J,F	0
+MEL	HKG	CX	oneworld	Asia Miles	4605	Y,W,J,F,A	0
 MEL	HKG	QF	oneworld	Asia Miles	4605	Y,W,J,F	0
 MEL	IST	TK	Star Alliance	KrisFlyer	9097	Y,J	0
 MEL	KUL	MH	oneworld	Asia Miles	3924	Y,J,F	0
-MEL	LAX	QF	oneworld	Asia Miles	7927	Y,W,J,F	0
+MEL	LAX	QF	oneworld	Asia Miles	7927	Y,W,J,F,S	0
 MEL	LAX	UA	Star Alliance	KrisFlyer	7927	Y,W,J	0
 MEL	NAN	FJ	oneworld	Asia Miles	2403	Y,J	0
 MEL	NAN	VA	Mitra KrisFlyer	KrisFlyer	2403	Y,J	0
@@ -7647,7 +7647,7 @@ MEL	SCL	LA	Mitra Asia Miles	Asia Miles	7019	Y,W,J	0
 MEL	SFO	UA	Star Alliance	KrisFlyer	7862	Y,W,J	0
 MEL	SGN	VN	SkyTeam	GarudaMiles	4162	Y,W,J	0
 MEL	SIN	QF	oneworld	Asia Miles	3749	Y,W,J,F	0
-MEL	SIN	SQ	Star Alliance	KrisFlyer	3749	Y,W,J,F	0
+MEL	SIN	SQ	Star Alliance	KrisFlyer	3749	Y,W,J,F,S	0
 MEL	SIN	TK	Star Alliance	KrisFlyer	3749	Y,J	1
 MEL	SIN	TR	Mitra KrisFlyer	KrisFlyer	3749	Y,W	0
 MEL	SYD	QF	oneworld	Asia Miles	438	Y,J	0
@@ -7834,7 +7834,7 @@ MIA	LAX	DL	SkyTeam	GarudaMiles	2338	Y,W,J	0
 MIA	LAX	UA	Star Alliance	KrisFlyer	2338	Y,W,J	0
 MIA	LGA	AA	oneworld	Asia Miles	1099	Y,W,J	0
 MIA	LHR	AA	oneworld	Asia Miles	4417	Y,W,J,F	0
-MIA	LHR	BA	oneworld	Asia Miles	4417	Y,W,J,F	0
+MIA	LHR	BA	oneworld	Asia Miles	4417	Y,W,J,F,S	0
 MIA	LHR	VS	SkyTeam	GarudaMiles	4417	Y,W,J	0
 MIA	LIM	AA	oneworld	Asia Miles	2622	Y,W,J,F	0
 MIA	LIM	LA	Mitra Asia Miles	Asia Miles	2622	Y,W,J	0
@@ -8105,12 +8105,12 @@ MUC	AYT	LH	Star Alliance	KrisFlyer	1244	Y,W,J,F	0
 MUC	BCN	LH	Star Alliance	KrisFlyer	680	Y,J	0
 MUC	BEG	LH	Star Alliance	KrisFlyer	473	Y,J	0
 MUC	BER	LH	Star Alliance	KrisFlyer	288	Y,J	0
-MUC	BKK	LH	Star Alliance	KrisFlyer	5468	Y,W,J,F	0
+MUC	BKK	LH	Star Alliance	KrisFlyer	5468	Y,W,J,F,S	0
 MUC	BKK	TG	Star Alliance	KrisFlyer	5468	Y,W,J,F	0
 MUC	BLQ	LH	Star Alliance	KrisFlyer	265	Y,J	0
 MUC	BLR	LH	Star Alliance	KrisFlyer	4439	Y,W,J,F	0
 MUC	BOM	LH	Star Alliance	KrisFlyer	3923	Y,W,J,F	0
-MUC	BOS	LH	Star Alliance	KrisFlyer	3840	Y,W,J,F	0
+MUC	BOS	LH	Star Alliance	KrisFlyer	3840	Y,W,J,F,S	0
 MUC	BRU	LH	Star Alliance	KrisFlyer	371	Y,J	0
 MUC	BRU	SN	Star Alliance	KrisFlyer	371	Y,J	0
 MUC	BUD	LH	Star Alliance	KrisFlyer	353	Y,J	0
@@ -8124,7 +8124,7 @@ MUC	CPH	SK	SkyTeam	GarudaMiles	503	Y,J	0
 MUC	CPT	LH	Star Alliance	KrisFlyer	5703	Y,W,J,F	0
 MUC	DBV	LH	Star Alliance	KrisFlyer	509	Y,J	0
 MUC	DEL	LH	Star Alliance	KrisFlyer	3667	Y,W,J,F	0
-MUC	DEN	LH	Star Alliance	KrisFlyer	5211	Y,W,J,F	0
+MUC	DEN	LH	Star Alliance	KrisFlyer	5211	Y,W,J,F,S	0
 MUC	DOH	QR	oneworld	Asia Miles	2674	Y,J,F	0
 MUC	DUB	LH	Star Alliance	KrisFlyer	858	Y,J	0
 MUC	DUS	LH	Star Alliance	KrisFlyer	302	Y,J	0
@@ -8146,7 +8146,7 @@ MUC	HKG	CX	oneworld	Asia Miles	5605	Y,W,J,F	0
 MUC	HKG	LH	Star Alliance	KrisFlyer	5605	Y,W,J,F	0
 MUC	HND	LH	Star Alliance	KrisFlyer	5816	Y,W,J,F	0
 MUC	HND	NH	Star Alliance	KrisFlyer	5816	Y,W,J,F	0
-MUC	IAD	LH	Star Alliance	KrisFlyer	4251	Y,W,J,F	0
+MUC	IAD	LH	Star Alliance	KrisFlyer	4251	Y,W,J,F,S	0
 MUC	IAD	UA	Star Alliance	KrisFlyer	4251	Y,W,J	0
 MUC	IAH	UA	Star Alliance	KrisFlyer	5404	Y,W,J	0
 MUC	ICN	LH	Star Alliance	KrisFlyer	5282	Y,W,J,F	0
@@ -8156,7 +8156,7 @@ MUC	JED	SV	SkyTeam	GarudaMiles	2382	Y,J,F	0
 MUC	JFK	LH	Star Alliance	KrisFlyer	4027	Y,W,J,F	0
 MUC	KIX	LH	Star Alliance	KrisFlyer	5741	Y,W,J,F	0
 MUC	KRK	LH	Star Alliance	KrisFlyer	380	Y,J	0
-MUC	LAX	LH	Star Alliance	KrisFlyer	5975	Y,W,J,F	0
+MUC	LAX	LH	Star Alliance	KrisFlyer	5975	Y,W,J,F,S	0
 MUC	LGW	LH	Star Alliance	KrisFlyer	567	Y,J	0
 MUC	LHR	BA	oneworld	Asia Miles	584	Y,J	0
 MUC	LHR	LH	Star Alliance	KrisFlyer	584	Y,J	0
@@ -8457,7 +8457,7 @@ NOU	SYD	QF	oneworld	Asia Miles	1231	Y,W,J,F	0
 NRT	ADD	ET	Star Alliance	KrisFlyer	6495	Y,J	0
 NRT	AKL	NZ	Star Alliance	KrisFlyer	5491	Y,W,J	0
 NRT	AMS	KL	SkyTeam	GarudaMiles	5790	Y,W,J	0
-NRT	AUH	EY	Mitra GarudaMiles	GarudaMiles	5026	Y,J,F	0
+NRT	AUH	EY	Mitra GarudaMiles	GarudaMiles	5026	Y,J,F,S	0
 NRT	BKK	JL	oneworld	Asia Miles	2889	Y,W,J,F	0
 NRT	BKK	NH	Star Alliance	KrisFlyer	2889	Y,W,J,F	0
 NRT	BKK	TG	Star Alliance	KrisFlyer	2889	Y,W,J,F	0
@@ -8507,7 +8507,7 @@ NRT	IAH	NH	Star Alliance	KrisFlyer	6629	Y,W,J,F	0
 NRT	IAH	UA	Star Alliance	KrisFlyer	6629	Y,W,J	0
 NRT	ICN	ET	Star Alliance	KrisFlyer	782	Y,J	1
 NRT	ICN	KE	SkyTeam	GarudaMiles	782	Y,J	0
-NRT	ICN	OZ	Star Alliance	KrisFlyer	782	Y,J	0
+NRT	ICN	OZ	Star Alliance	KrisFlyer	782	Y,J,F,S	0
 NRT	IST	TK	Star Alliance	KrisFlyer	5579	Y,J	0
 NRT	ITM	JL	oneworld	Asia Miles	288	Y,W,J	0
 NRT	ITM	NH	Star Alliance	KrisFlyer	288	Y,W,J	0
@@ -8560,7 +8560,7 @@ NRT	SGN	NH	Star Alliance	KrisFlyer	2724	Y,W,J,F	0
 NRT	SGN	VN	SkyTeam	GarudaMiles	2724	Y,W,J	0
 NRT	SIN	JL	oneworld	Asia Miles	3329	Y,W,J,F	0
 NRT	SIN	NH	Star Alliance	KrisFlyer	3329	Y,W,J,F	0
-NRT	SIN	SQ	Star Alliance	KrisFlyer	3329	Y,W,J,F	0
+NRT	SIN	SQ	Star Alliance	KrisFlyer	3329	Y,W,J,F,S	0
 NRT	SIN	TR	Mitra KrisFlyer	KrisFlyer	3329	Y,W	0
 NRT	SZX	ZH	Star Alliance	KrisFlyer	1833	Y,J	0
 NRT	TPE	BR	Star Alliance	KrisFlyer	1356	Y,W,J	0
@@ -9034,7 +9034,7 @@ PEK	HAN	VN	SkyTeam	GarudaMiles	1450	Y,W,J	0
 PEK	HAV	CA	Star Alliance	KrisFlyer	7910	Y,W,J,F	0
 PEK	HGH	CA	Star Alliance	KrisFlyer	714	Y,J	0
 PEK	HKG	CA	Star Alliance	KrisFlyer	1238	Y,W,J,F	0
-PEK	HKG	CX	oneworld	Asia Miles	1238	Y,W,J,F	0
+PEK	HKG	CX	oneworld	Asia Miles	1238	Y,W,J,F,A	0
 PEK	HKT	CA	Star Alliance	KrisFlyer	2480	Y,W,J,F	0
 PEK	HND	CA	Star Alliance	KrisFlyer	1299	Y,W,J,F	0
 PEK	HND	JL	oneworld	Asia Miles	1299	Y,W,J,F	0
@@ -9134,7 +9134,7 @@ PER	BNE	VA	Mitra KrisFlyer	KrisFlyer	2242	Y,J	0
 PER	CBR	QF	oneworld	Asia Miles	1917	Y,W,J,F	0
 PER	CDG	QF	oneworld	Asia Miles	8869	Y,W,J,F	0
 PER	CNS	QF	oneworld	Asia Miles	2133	Y,W,J,F	0
-PER	DOH	QR	oneworld	Asia Miles	5797	Y,J,F	0
+PER	DOH	QR	oneworld	Asia Miles	5797	Y,J,F,S	0
 PER	DRW	QF	oneworld	Asia Miles	1648	Y,W,J,F	0
 PER	FCO	QF	oneworld	Asia Miles	8304	Y,W,J,F	0
 PER	HBA	QF	oneworld	Asia Miles	1874	Y,W,J,F	0
@@ -9589,7 +9589,7 @@ PVG	HEL	AY	oneworld	Asia Miles	4594	Y,W,J	0
 PVG	HEL	HO	Mitra KrisFlyer	KrisFlyer	4594	Y,J	0
 PVG	HGH	HO	Mitra KrisFlyer	KrisFlyer	103	Y,J	0
 PVG	HGH	MU	SkyTeam	GarudaMiles	103	Y,J	0
-PVG	HKG	CX	oneworld	Asia Miles	780	Y,W,J,F	0
+PVG	HKG	CX	oneworld	Asia Miles	780	Y,W,J,F,A	0
 PVG	HKG	HO	Mitra KrisFlyer	KrisFlyer	780	Y,J	0
 PVG	HKG	MU	SkyTeam	GarudaMiles	780	Y,J	0
 PVG	HKT	HO	Mitra KrisFlyer	KrisFlyer	2196	Y,J	0
@@ -10172,7 +10172,7 @@ SFO	GIG	UA	Star Alliance	KrisFlyer	6611	Y,W,J	0
 SFO	GRU	UA	Star Alliance	KrisFlyer	6479	Y,W,J	0
 SFO	GUA	UA	Star Alliance	KrisFlyer	2516	Y,W,J	0
 SFO	GYE	UA	Star Alliance	KrisFlyer	3862	Y,W,J	0
-SFO	HKG	CX	oneworld	Asia Miles	6914	Y,W,J,F	0
+SFO	HKG	CX	oneworld	Asia Miles	6914	Y,W,J,F,A	0
 SFO	HKG	UA	Star Alliance	KrisFlyer	6914	Y,W,J	0
 SFO	HND	JL	oneworld	Asia Miles	5148	Y,W,J,F	0
 SFO	HND	NH	Star Alliance	KrisFlyer	5148	Y,W,J,F	0
@@ -10201,7 +10201,7 @@ SFO	LAX	AS	oneworld	Asia Miles	338	Y,J	0
 SFO	LAX	DL	SkyTeam	GarudaMiles	338	Y,J	0
 SFO	LAX	UA	Star Alliance	KrisFlyer	338	Y,J	0
 SFO	LGA	UA	Star Alliance	KrisFlyer	2573	Y,W,J	0
-SFO	LHR	BA	oneworld	Asia Miles	5354	Y,W,J,F	0
+SFO	LHR	BA	oneworld	Asia Miles	5354	Y,W,J,F,S	0
 SFO	LHR	UA	Star Alliance	KrisFlyer	5354	Y,W,J	0
 SFO	LHR	VS	SkyTeam	GarudaMiles	5354	Y,W,J	0
 SFO	LIH	AS	oneworld	Asia Miles	2444	Y,J	0
@@ -10400,7 +10400,7 @@ SIN	AMD	SQ	Star Alliance	KrisFlyer	2582	Y,W,J,F	0
 SIN	AMS	KL	SkyTeam	GarudaMiles	6532	Y,W,J	0
 SIN	AMS	SQ	Star Alliance	KrisFlyer	6532	Y,W,J,F	0
 SIN	ATH	TR	Mitra KrisFlyer	KrisFlyer	5619	Y,W	0
-SIN	AUH	EY	Mitra GarudaMiles	GarudaMiles	3657	Y,J,F	0
+SIN	AUH	EY	Mitra GarudaMiles	GarudaMiles	3657	Y,J,F,S	0
 SIN	BAH	GF	Mitra Asia Miles	Asia Miles	3934	Y,J	0
 SIN	BCN	SQ	Star Alliance	KrisFlyer	6772	Y,W,J,F	0
 SIN	BER	TR	Mitra KrisFlyer	KrisFlyer	6164	Y,W	0
@@ -10469,7 +10469,7 @@ SIN	HAN	TR	Mitra KrisFlyer	KrisFlyer	1377	Y,W	0
 SIN	HAN	VN	SkyTeam	GarudaMiles	1377	Y,W,J	0
 SIN	HEL	AY	oneworld	Asia Miles	5763	Y,W,J	0
 SIN	HGH	TR	Mitra KrisFlyer	KrisFlyer	2267	Y,W	0
-SIN	HKG	CX	oneworld	Asia Miles	1593	Y,W,J,F	0
+SIN	HKG	CX	oneworld	Asia Miles	1593	Y,W,J,F,A	0
 SIN	HKG	SQ	Star Alliance	KrisFlyer	1593	Y,W,J,F,S	0
 SIN	HKG	TR	Mitra KrisFlyer	KrisFlyer	1593	Y,W	0
 SIN	HKT	SQ	Star Alliance	KrisFlyer	608	Y,W,J,F	0
@@ -10507,7 +10507,7 @@ SIN	KUL	TR	Mitra KrisFlyer	KrisFlyer	184	Y	0
 SIN	LAX	SQ	Star Alliance	KrisFlyer	8762	Y,W,J,F	0
 SIN	LGK	TR	Mitra KrisFlyer	KrisFlyer	452	Y	0
 SIN	LGW	SQ	Star Alliance	KrisFlyer	6754	Y,W,J,F	0
-SIN	LHR	BA	oneworld	Asia Miles	6761	Y,W,J,F	0
+SIN	LHR	BA	oneworld	Asia Miles	6761	Y,W,J,F,S	0
 SIN	LHR	QF	oneworld	Asia Miles	6761	Y,W,J,F	1
 SIN	LHR	SQ	Star Alliance	KrisFlyer	6761	Y,W,J,F,S	0
 SIN	LOP	TR	Mitra KrisFlyer	KrisFlyer	1098	Y,W	0
@@ -10516,7 +10516,7 @@ SIN	MAA	TR	Mitra KrisFlyer	KrisFlyer	1817	Y,W	0
 SIN	MAN	SQ	Star Alliance	KrisFlyer	6807	Y,W,J,F	0
 SIN	MDC	TR	Mitra KrisFlyer	KrisFlyer	1446	Y,W	0
 SIN	MEL	QF	oneworld	Asia Miles	3749	Y,W,J,F	0
-SIN	MEL	SQ	Star Alliance	KrisFlyer	3749	Y,W,J,F	0
+SIN	MEL	SQ	Star Alliance	KrisFlyer	3749	Y,W,J,F,S	0
 SIN	MEL	TK	Star Alliance	KrisFlyer	3749	Y,J	1
 SIN	MEL	TR	Mitra KrisFlyer	KrisFlyer	3749	Y,W	0
 SIN	MFM	TR	Mitra KrisFlyer	KrisFlyer	1574	Y,W	0
@@ -10531,7 +10531,7 @@ SIN	NGO	SQ	Star Alliance	KrisFlyer	3132	Y,W,J,F	0
 SIN	NKG	TR	Mitra KrisFlyer	KrisFlyer	2312	Y,W	0
 SIN	NRT	JL	oneworld	Asia Miles	3329	Y,W,J,F	0
 SIN	NRT	NH	Star Alliance	KrisFlyer	3329	Y,W,J,F	0
-SIN	NRT	SQ	Star Alliance	KrisFlyer	3329	Y,W,J,F	0
+SIN	NRT	SQ	Star Alliance	KrisFlyer	3329	Y,W,J,F,S	0
 SIN	NRT	TR	Mitra KrisFlyer	KrisFlyer	3329	Y,W	0
 SIN	PEK	CA	Star Alliance	KrisFlyer	2790	Y,W,J,F	0
 SIN	PEK	SQ	Star Alliance	KrisFlyer	2790	Y,W,J,F	0
@@ -10563,7 +10563,7 @@ SIN	SUB	GA	SkyTeam	GarudaMiles	856	Y,J,F	0
 SIN	SUB	SQ	Star Alliance	KrisFlyer	856	Y,W,J,F	0
 SIN	SUB	TR	Mitra KrisFlyer	KrisFlyer	856	Y	0
 SIN	SYD	BA	oneworld	Asia Miles	3911	Y,W,J,F	1
-SIN	SYD	QF	oneworld	Asia Miles	3911	Y,W,J,F	0
+SIN	SYD	QF	oneworld	Asia Miles	3911	Y,W,J,F,S	0
 SIN	SYD	SQ	Star Alliance	KrisFlyer	3911	Y,W,J,F,S	0
 SIN	SYD	TR	Mitra KrisFlyer	KrisFlyer	3911	Y,W	0
 SIN	SZX	SQ	Star Alliance	KrisFlyer	1611	Y,W,J,F	0
@@ -10588,7 +10588,7 @@ SIN	XMN	SQ	Star Alliance	KrisFlyer	1859	Y,W,J,F	0
 SIN	YIA	TR	Mitra KrisFlyer	KrisFlyer	765	Y	0
 SIN	YVR	AC	Star Alliance	KrisFlyer	7961	Y,W,J	0
 SIN	ZRH	LX	Star Alliance	KrisFlyer	6403	Y,W,J,F	0
-SIN	ZRH	SQ	Star Alliance	KrisFlyer	6403	Y,W,J,F	0
+SIN	ZRH	SQ	Star Alliance	KrisFlyer	6403	Y,W,J,F,S	0
 SJD	ATL	DL	SkyTeam	GarudaMiles	1693	Y,W,J	0
 SJD	BOG	AV	Star Alliance	KrisFlyer	2692	Y,J	0
 SJD	BOS	DL	SkyTeam	GarudaMiles	2580	Y,W,J	0
@@ -10843,8 +10843,8 @@ SYD	CNS	QF	oneworld	Asia Miles	1226	Y,W,J,F	0
 SYD	CNS	VA	Mitra KrisFlyer	KrisFlyer	1226	Y,J	0
 SYD	DEL	AI	Star Alliance	KrisFlyer	6484	Y,W,J,F	0
 SYD	DFW	AA	oneworld	Asia Miles	8580	Y,W,J,F	0
-SYD	DFW	QF	oneworld	Asia Miles	8580	Y,W,J,F	0
-SYD	DOH	QR	oneworld	Asia Miles	7689	Y,J,F	0
+SYD	DFW	QF	oneworld	Asia Miles	8580	Y,W,J,F,S	0
+SYD	DOH	QR	oneworld	Asia Miles	7689	Y,J,F,S	0
 SYD	DPS	GA	SkyTeam	GarudaMiles	2872	Y,J,F	0
 SYD	DPS	QF	oneworld	Asia Miles	2872	Y,W,J,F	0
 SYD	DPS	VA	Mitra KrisFlyer	KrisFlyer	2872	Y,J	0
@@ -10853,7 +10853,7 @@ SYD	DRW	VA	Mitra KrisFlyer	KrisFlyer	1960	Y,J	0
 SYD	HAN	VN	SkyTeam	GarudaMiles	4840	Y,W,J	0
 SYD	HBA	QF	oneworld	Asia Miles	645	Y,J	0
 SYD	HBA	VA	Mitra KrisFlyer	KrisFlyer	645	Y,J	0
-SYD	HKG	CX	oneworld	Asia Miles	4594	Y,W,J,F	0
+SYD	HKG	CX	oneworld	Asia Miles	4594	Y,W,J,F,A	0
 SYD	HKG	QF	oneworld	Asia Miles	4594	Y,W,J,F	0
 SYD	HND	JL	oneworld	Asia Miles	4858	Y,W,J,F	0
 SYD	HND	NH	Star Alliance	KrisFlyer	4858	Y,W,J,F	0
@@ -10865,15 +10865,15 @@ SYD	ICN	KE	SkyTeam	GarudaMiles	5184	Y,J,F	0
 SYD	ICN	OZ	Star Alliance	KrisFlyer	5184	Y,J,F	0
 SYD	ICN	QF	oneworld	Asia Miles	5184	Y,W,J,F	0
 SYD	IST	TK	Star Alliance	KrisFlyer	9303	Y,J	0
-SYD	JNB	QF	oneworld	Asia Miles	6850	Y,W,J,F	0
+SYD	JNB	QF	oneworld	Asia Miles	6850	Y,W,J,F,S	0
 SYD	KUL	MH	oneworld	Asia Miles	4092	Y,J,F	0
 SYD	KUL	TK	Star Alliance	KrisFlyer	4092	Y,J	1
 SYD	LAX	AA	oneworld	Asia Miles	7494	Y,W,J,F	0
 SYD	LAX	DL	SkyTeam	GarudaMiles	7494	Y,W,J	0
-SYD	LAX	QF	oneworld	Asia Miles	7494	Y,W,J,F	0
+SYD	LAX	QF	oneworld	Asia Miles	7494	Y,W,J,F,S	0
 SYD	LAX	UA	Star Alliance	KrisFlyer	7494	Y,W,J	0
 SYD	LHR	BA	oneworld	Asia Miles	10576	Y,W,J,F	0
-SYD	LHR	QF	oneworld	Asia Miles	10576	Y,W,J,F	0
+SYD	LHR	QF	oneworld	Asia Miles	10576	Y,W,J,F,S	0
 SYD	MEL	QF	oneworld	Asia Miles	438	Y,J	0
 SYD	MEL	VA	Mitra KrisFlyer	KrisFlyer	438	Y,J	0
 SYD	MNL	QF	oneworld	Asia Miles	3892	Y,W,J,F	0
@@ -10896,7 +10896,7 @@ SYD	SFO	QF	oneworld	Asia Miles	7425	Y,W,J,F	0
 SYD	SFO	UA	Star Alliance	KrisFlyer	7425	Y,W,J	0
 SYD	SGN	VN	SkyTeam	GarudaMiles	4254	Y,W,J	0
 SYD	SIN	BA	oneworld	Asia Miles	3911	Y,W,J,F	1
-SYD	SIN	QF	oneworld	Asia Miles	3911	Y,W,J,F	0
+SYD	SIN	QF	oneworld	Asia Miles	3911	Y,W,J,F,S	0
 SYD	SIN	SQ	Star Alliance	KrisFlyer	3911	Y,W,J,F,S	0
 SYD	SIN	TR	Mitra KrisFlyer	KrisFlyer	3911	Y,W	0
 SYD	TPE	CI	SkyTeam	GarudaMiles	4527	Y,W,J	0
@@ -11095,13 +11095,13 @@ TPE	HGH	BR	Star Alliance	KrisFlyer	359	Y,W,J	0
 TPE	HIJ	CI	SkyTeam	GarudaMiles	952	Y,W,J	0
 TPE	HKG	BR	Star Alliance	KrisFlyer	501	Y,W,J	0
 TPE	HKG	CI	SkyTeam	GarudaMiles	501	Y,W,J	0
-TPE	HKG	CX	oneworld	Asia Miles	501	Y,W,J,F	0
+TPE	HKG	CX	oneworld	Asia Miles	501	Y,W,J,F,A	0
 TPE	HND	BR	Star Alliance	KrisFlyer	1318	Y,W,J	0
 TPE	HND	CI	SkyTeam	GarudaMiles	1318	Y,W,J	0
 TPE	IAH	BR	Star Alliance	KrisFlyer	7926	Y,W,J	0
 TPE	ICN	BR	Star Alliance	KrisFlyer	909	Y,W,J	0
 TPE	ICN	CI	SkyTeam	GarudaMiles	909	Y,W,J	0
-TPE	ICN	KE	SkyTeam	GarudaMiles	909	Y,J	0
+TPE	ICN	KE	SkyTeam	GarudaMiles	909	Y,J,F,S	0
 TPE	ICN	OZ	Star Alliance	KrisFlyer	909	Y,J	0
 TPE	ICN	TR	Mitra KrisFlyer	KrisFlyer	909	Y,W	1
 TPE	IST	TK	Star Alliance	KrisFlyer	5218	Y,J	0
@@ -11738,7 +11738,7 @@ YVR	EWR	UA	Star Alliance	KrisFlyer	2423	Y,W,J	0
 YVR	FLL	AC	Star Alliance	KrisFlyer	2790	Y,W,J	0
 YVR	FRA	AC	Star Alliance	KrisFlyer	5009	Y,W,J	0
 YVR	HKG	AC	Star Alliance	KrisFlyer	6381	Y,W,J	0
-YVR	HKG	CX	oneworld	Asia Miles	6381	Y,W,J,F	0
+YVR	HKG	CX	oneworld	Asia Miles	6381	Y,W,J,F,A	0
 YVR	HND	NH	Star Alliance	KrisFlyer	4697	Y,W,J,F	0
 YVR	IAD	AC	Star Alliance	KrisFlyer	2338	Y,W,J	0
 YVR	IAD	UA	Star Alliance	KrisFlyer	2338	Y,W,J	0
@@ -11823,7 +11823,7 @@ YYZ	ARN	SK	SkyTeam	GarudaMiles	3922	Y,W,J	0
 YYZ	ATH	AC	Star Alliance	KrisFlyer	5051	Y,W,J	0
 YYZ	ATL	AC	Star Alliance	KrisFlyer	740	Y,J	0
 YYZ	ATL	DL	SkyTeam	GarudaMiles	740	Y,J	0
-YYZ	AUH	EY	Mitra GarudaMiles	GarudaMiles	6911	Y,J,F	0
+YYZ	AUH	EY	Mitra GarudaMiles	GarudaMiles	6911	Y,J,F,S	0
 YYZ	AUS	AC	Star Alliance	KrisFlyer	1358	Y,W,J	0
 YYZ	BCN	AC	Star Alliance	KrisFlyer	3988	Y,W,J	0
 YYZ	BOG	AC	Star Alliance	KrisFlyer	2714	Y,W,J	0
@@ -12076,7 +12076,7 @@ ZRH	PVG	LX	Star Alliance	KrisFlyer	5612	Y,W,J,F	0
 ZRH	SFO	LX	Star Alliance	KrisFlyer	5826	Y,W,J,F	0
 ZRH	SFO	UA	Star Alliance	KrisFlyer	5826	Y,W,J	0
 ZRH	SIN	LX	Star Alliance	KrisFlyer	6403	Y,W,J,F	0
-ZRH	SIN	SQ	Star Alliance	KrisFlyer	6403	Y,W,J,F	0
+ZRH	SIN	SQ	Star Alliance	KrisFlyer	6403	Y,W,J,F,S	0
 ZRH	SKG	LX	Star Alliance	KrisFlyer	861	Y,J	0
 ZRH	SOF	LX	Star Alliance	KrisFlyer	795	Y,J	0
 ZRH	STR	LX	Star Alliance	KrisFlyer	90	Y,J	0
@@ -12092,3 +12092,127 @@ ZRH	YVR	AC	Star Alliance	KrisFlyer	5162	Y,W,J	0
 ZRH	YYZ	AC	Star Alliance	KrisFlyer	4033	Y,W,J	0
 ZRH	YYZ	LX	Star Alliance	KrisFlyer	4033	Y,W,J,F	0
 ZRH	ZAG	OU	Star Alliance	KrisFlyer	376	Y,J	0
+DXB	DPS	EK	Mitra Non-Aliansi	GarudaMiles	4655	Y,W,J,F,S	0
+DPS	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4655	Y,W,J,F,S	0
+DXB	SIN	EK	Mitra Non-Aliansi	GarudaMiles	3632	Y,W,J,F,S	0
+SIN	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3632	Y,W,J,F,S	0
+DXB	KUL	EK	Mitra Non-Aliansi	GarudaMiles	3448	Y,W,J,F,S	0
+KUL	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3448	Y,W,J,F,S	0
+DXB	BKK	EK	Mitra Non-Aliansi	GarudaMiles	3047	Y,W,J,F,S	0
+BKK	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3047	Y,W,J,F,S	0
+DXB	HKG	EK	Mitra Non-Aliansi	GarudaMiles	3678	Y,W,J,F,S	0
+HKG	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3678	Y,W,J,F,S	0
+DXB	PVG	EK	Mitra Non-Aliansi	GarudaMiles	4007	Y,W,J,F,S	0
+PVG	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4007	Y,W,J,F,S	0
+DXB	PEK	EK	Mitra Non-Aliansi	GarudaMiles	3633	Y,W,J,F,S	0
+PEK	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3633	Y,W,J,F,S	0
+DXB	CAN	EK	Mitra Non-Aliansi	GarudaMiles	3621	Y,W,J,F,S	0
+CAN	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3621	Y,W,J,F,S	0
+DXB	TPE	EK	Mitra Non-Aliansi	GarudaMiles	4073	Y,W,J,F,S	0
+TPE	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4073	Y,W,J,F,S	0
+DXB	NRT	EK	Mitra Non-Aliansi	GarudaMiles	4958	Y,W,J,F,S	0
+NRT	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4958	Y,W,J,F,S	0
+DXB	KIX	EK	Mitra Non-Aliansi	GarudaMiles	4708	Y,W,J,F,S	0
+KIX	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4708	Y,W,J,F,S	0
+DXB	ICN	EK	Mitra Non-Aliansi	GarudaMiles	4181	Y,W,J,F,S	0
+ICN	DXB	EK	Mitra Non-Aliansi	GarudaMiles	4181	Y,W,J,F,S	0
+DXB	SYD	EK	Mitra Non-Aliansi	GarudaMiles	7484	Y,W,J,F,S	0
+SYD	DXB	EK	Mitra Non-Aliansi	GarudaMiles	7484	Y,W,J,F,S	0
+DXB	MEL	EK	Mitra Non-Aliansi	GarudaMiles	7236	Y,W,J,F,S	0
+MEL	DXB	EK	Mitra Non-Aliansi	GarudaMiles	7236	Y,W,J,F,S	0
+DXB	BNE	EK	Mitra Non-Aliansi	GarudaMiles	7443	Y,W,J,F,S	0
+BNE	DXB	EK	Mitra Non-Aliansi	GarudaMiles	7443	Y,W,J,F,S	0
+DXB	PER	EK	Mitra Non-Aliansi	GarudaMiles	5618	Y,W,J,F,S	0
+PER	DXB	EK	Mitra Non-Aliansi	GarudaMiles	5618	Y,W,J,F,S	0
+DXB	AKL	EK	Mitra Non-Aliansi	GarudaMiles	8823	Y,W,J,F,S	0
+AKL	DXB	EK	Mitra Non-Aliansi	GarudaMiles	8823	Y,W,J,F,S	0
+DXB	CHC	EK	Mitra Non-Aliansi	GarudaMiles	8732	Y,W,J,F,S	0
+CHC	DXB	EK	Mitra Non-Aliansi	GarudaMiles	8732	Y,W,J,F,S	0
+DXB	BOM	EK	Mitra Non-Aliansi	GarudaMiles	1197	Y,W,J,F,S	0
+BOM	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1197	Y,W,J,F,S	0
+DXB	DEL	EK	Mitra Non-Aliansi	GarudaMiles	1356	Y,W,J,F,S	0
+DEL	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1356	Y,W,J,F,S	0
+DXB	BLR	EK	Mitra Non-Aliansi	GarudaMiles	1675	Y,W,J,F,S	0
+BLR	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1675	Y,W,J,F,S	0
+DXB	JED	EK	Mitra Non-Aliansi	GarudaMiles	1056	Y,W,J,F,S	0
+JED	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1056	Y,W,J,F,S	0
+DXB	RUH	EK	Mitra Non-Aliansi	GarudaMiles	543	Y,W,J,F,S	0
+RUH	DXB	EK	Mitra Non-Aliansi	GarudaMiles	543	Y,W,J,F,S	0
+DXB	AMM	EK	Mitra Non-Aliansi	GarudaMiles	1256	Y,W,J,F,S	0
+AMM	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1256	Y,W,J,F,S	0
+DXB	CAI	EK	Mitra Non-Aliansi	GarudaMiles	1501	Y,W,J,F,S	0
+CAI	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1501	Y,W,J,F,S	0
+DXB	LHR	EK	Mitra Non-Aliansi	GarudaMiles	3416	Y,W,J,F,S	0
+LHR	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3416	Y,W,J,F,S	0
+DXB	LGW	EK	Mitra Non-Aliansi	GarudaMiles	3401	Y,W,J,F,S	0
+LGW	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3401	Y,W,J,F,S	0
+DXB	MAN	EK	Mitra Non-Aliansi	GarudaMiles	3514	Y,W,J,F,S	0
+MAN	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3514	Y,W,J,F,S	0
+DXB	BHX	EK	Mitra Non-Aliansi	GarudaMiles	3482	Y,W,J,F,S	0
+BHX	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3482	Y,W,J,F,S	0
+DXB	GLA	EK	Mitra Non-Aliansi	GarudaMiles	3629	Y,W,J,F,S	0
+GLA	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3629	Y,W,J,F,S	0
+DXB	CDG	EK	Mitra Non-Aliansi	GarudaMiles	3255	Y,W,J,F,S	0
+CDG	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3255	Y,W,J,F,S	0
+DXB	NCE	EK	Mitra Non-Aliansi	GarudaMiles	2973	Y,W,J,F,S	0
+NCE	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2973	Y,W,J,F,S	0
+DXB	AMS	EK	Mitra Non-Aliansi	GarudaMiles	3212	Y,W,J,F,S	0
+AMS	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3212	Y,W,J,F,S	0
+DXB	FRA	EK	Mitra Non-Aliansi	GarudaMiles	3010	Y,W,J,F,S	0
+FRA	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3010	Y,W,J,F,S	0
+DXB	MUC	EK	Mitra Non-Aliansi	GarudaMiles	2836	Y,W,J,F,S	0
+MUC	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2836	Y,W,J,F,S	0
+DXB	DUS	EK	Mitra Non-Aliansi	GarudaMiles	3110	Y,W,J,F,S	0
+DUS	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3110	Y,W,J,F,S	0
+DXB	HAM	EK	Mitra Non-Aliansi	GarudaMiles	3035	Y,W,J,F,S	0
+HAM	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3035	Y,W,J,F,S	0
+DXB	ZRH	EK	Mitra Non-Aliansi	GarudaMiles	2963	Y,W,J,F,S	0
+ZRH	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2963	Y,W,J,F,S	0
+DXB	GVA	EK	Mitra Non-Aliansi	GarudaMiles	3057	Y,W,J,F,S	0
+GVA	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3057	Y,W,J,F,S	0
+DXB	VIE	EK	Mitra Non-Aliansi	GarudaMiles	2624	Y,W,J,F,S	0
+VIE	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2624	Y,W,J,F,S	0
+DXB	FCO	EK	Mitra Non-Aliansi	GarudaMiles	2699	Y,W,J,F,S	0
+FCO	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2699	Y,W,J,F,S	0
+DXB	MXP	EK	Mitra Non-Aliansi	GarudaMiles	2925	Y,W,J,F,S	0
+MXP	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2925	Y,W,J,F,S	0
+DXB	MAD	EK	Mitra Non-Aliansi	GarudaMiles	3510	Y,W,J,F,S	0
+MAD	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3510	Y,W,J,F,S	0
+DXB	BCN	EK	Mitra Non-Aliansi	GarudaMiles	3216	Y,W,J,F,S	0
+BCN	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3216	Y,W,J,F,S	0
+DXB	CPH	EK	Mitra Non-Aliansi	GarudaMiles	2994	Y,W,J,F,S	0
+CPH	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2994	Y,W,J,F,S	0
+DXB	OSL	EK	Mitra Non-Aliansi	GarudaMiles	3192	Y,W,J,F,S	0
+OSL	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3192	Y,W,J,F,S	0
+DXB	IST	EK	Mitra Non-Aliansi	GarudaMiles	1882	Y,W,J,F,S	0
+IST	DXB	EK	Mitra Non-Aliansi	GarudaMiles	1882	Y,W,J,F,S	0
+DXB	PRG	EK	Mitra Non-Aliansi	GarudaMiles	2774	Y,W,J,F,S	0
+PRG	DXB	EK	Mitra Non-Aliansi	GarudaMiles	2774	Y,W,J,F,S	0
+DXB	JFK	EK	Mitra Non-Aliansi	GarudaMiles	6836	Y,W,J,F,S	0
+JFK	DXB	EK	Mitra Non-Aliansi	GarudaMiles	6836	Y,W,J,F,S	0
+DXB	LAX	EK	Mitra Non-Aliansi	GarudaMiles	8326	Y,W,J,F,S	0
+LAX	DXB	EK	Mitra Non-Aliansi	GarudaMiles	8326	Y,W,J,F,S	0
+DXB	SFO	EK	Mitra Non-Aliansi	GarudaMiles	8090	Y,W,J,F,S	0
+SFO	DXB	EK	Mitra Non-Aliansi	GarudaMiles	8090	Y,W,J,F,S	0
+DXB	IAH	EK	Mitra Non-Aliansi	GarudaMiles	8155	Y,W,J,F,S	0
+IAH	DXB	EK	Mitra Non-Aliansi	GarudaMiles	8155	Y,W,J,F,S	0
+DXB	IAD	EK	Mitra Non-Aliansi	GarudaMiles	7055	Y,W,J,F,S	0
+IAD	DXB	EK	Mitra Non-Aliansi	GarudaMiles	7055	Y,W,J,F,S	0
+DXB	BOS	EK	Mitra Non-Aliansi	GarudaMiles	6650	Y,W,J,F,S	0
+BOS	DXB	EK	Mitra Non-Aliansi	GarudaMiles	6650	Y,W,J,F,S	0
+DXB	YYZ	EK	Mitra Non-Aliansi	GarudaMiles	6886	Y,W,J,F,S	0
+YYZ	DXB	EK	Mitra Non-Aliansi	GarudaMiles	6886	Y,W,J,F,S	0
+DXB	GRU	EK	Mitra Non-Aliansi	GarudaMiles	7591	Y,W,J,F,S	0
+GRU	DXB	EK	Mitra Non-Aliansi	GarudaMiles	7591	Y,W,J,F,S	0
+DXB	JNB	EK	Mitra Non-Aliansi	GarudaMiles	3985	Y,W,J,F,S	0
+JNB	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3985	Y,W,J,F,S	0
+DXB	MRU	EK	Mitra Non-Aliansi	GarudaMiles	3160	Y,W,J,F,S	0
+MRU	DXB	EK	Mitra Non-Aliansi	GarudaMiles	3160	Y,W,J,F,S	0
+BKK	HKG	EK	Mitra Non-Aliansi	GarudaMiles	1049	Y,W,J,F,S	1
+HKG	BKK	EK	Mitra Non-Aliansi	GarudaMiles	1049	Y,W,J,F,S	1
+SIN	MEL	EK	Mitra Non-Aliansi	GarudaMiles	3749	Y,W,J,F,S	1
+MEL	SIN	EK	Mitra Non-Aliansi	GarudaMiles	3749	Y,W,J,F,S	1
+SYD	CHC	EK	Mitra Non-Aliansi	GarudaMiles	1321	Y,W,J,F,S	1
+CHC	SYD	EK	Mitra Non-Aliansi	GarudaMiles	1321	Y,W,J,F,S	1
+MXP	JFK	EK	Mitra Non-Aliansi	GarudaMiles	3985	Y,W,J,F,S	1
+JFK	MXP	EK	Mitra Non-Aliansi	GarudaMiles	3985	Y,W,J,F,S	1

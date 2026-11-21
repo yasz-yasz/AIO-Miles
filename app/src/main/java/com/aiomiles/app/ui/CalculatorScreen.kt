@@ -300,7 +300,7 @@ fun CalculatorScreen(
                         )
                         Spacer(Modifier.height(4.dp))
                         Text(
-                            text = "Coba ubah kelas kabin (misal Business/Economy) atau pilih filter 'Semua'. Untuk Suites (A380), rute tersedia melalui hub SIN (SQ).",
+                            text = "Coba ubah kelas kabin (misal Business/Economy) atau pilih filter 'Semua'. Untuk A380 Suites tersedia di EK, SQ, LH, OZ, KE, QR, QF, BA, EY; sedangkan Aria Suite tersedia di CX via HKG.",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )

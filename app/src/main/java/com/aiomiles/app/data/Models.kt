@@ -4,6 +4,7 @@ enum class CabinClass(val code: String, val label: String, val shortLabel: Strin
     ECONOMY("Y", "Economy", "Eco"),
     PREMIUM_ECONOMY("W", "Premium Economy", "Prem Eco"),
     BUSINESS("J", "Business", "Biz"),
+    ARIA_SUITE("A", "Aria Suite (CX)", "Aria"),
     FIRST("F", "First Class", "First"),
     SUITES("S", "Suites (A380)", "Suites");
 
