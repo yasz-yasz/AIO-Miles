@@ -172,7 +172,8 @@ object AwardCalculator {
                 CabinClass.ECONOMY -> rate.y
                 CabinClass.PREMIUM_ECONOMY -> roundTo500((rate.y + rate.j) * 0.48)
                 CabinClass.BUSINESS -> rate.j
-                CabinClass.FIRST, CabinClass.SUITES -> rate.f
+                CabinClass.FIRST -> rate.f
+                CabinClass.SUITES, CabinClass.ARIA_SUITE -> rate.f
             }
             return MilesEstimate(
                 miles = miles,
@@ -187,6 +188,197 @@ object AwardCalculator {
                 distanceMi <= 1500 -> GaOwnMetalRate(18_500, 33_500, 49_500)
                 distanceMi <= 2200 -> GaOwnMetalRate(25_000, 45_000, 77_700)
                 distanceMi <= 2900 -> GaOwnMetalRate(30_000, 54_000, 90_000)
+                distanceMi <= 3700 -> GaOwnMetalRate(35_000, 63_000, 108_000)
+                distanceMi <= 5800 -> GaOwnMetalRate(49_000, 89_000, 126_000)
+                else -> GaOwnMetalRate(50_000, 110_000, 190_000)
+            }
+            val miles = when (effectiveCabin) {
+                CabinClass.ECONOMY -> rate.y
+                CabinClass.PREMIUM_ECONOMY -> roundTo500((rate.y + rate.j) * 0.48)
+                CabinClass.BUSINESS -> rate.j
+                CabinClass.FIRST -> rate.f
+                CabinClass.SUITES, CabinClass.ARIA_SUITE -> rate.f
+            }
+            return MilesEstimate(
+                miles = miles,
+                tierLabel = "GA Intl (Apr 2026)",
+                ruleSummary = "GarudaMiles Own-Metal Internasional ($distanceMi mi)"
+            )
+        }
+
+        // SkyTeam & Partner Airline Award Chart (Group A..I, 1-way; Group D Biz = 47,500)
+        val band = skyTeamPartnerGroupBand(distanceMi)
+        val miles = when (effectiveCabin) {
+            CabinClass.ECONOMY -> band.y
+            CabinClass.PREMIUM_ECONOMY -> band.w
+            CabinClass.BUSINESS -> band.j
+            CabinClass.FIRST -> band.f
+            CabinClass.SUITES, CabinClass.ARIA_SUITE -> band.f
+        }
+        val label = if (airlineCode == "EY") "Mitra Etihad" else "SkyTeam / Partner"
+        return MilesEstimate(
+            miles = miles,
+            tierLabel = label,
+            ruleSummary = "GarudaMiles $label ${band.label} ($distanceMi mi)"
+        )
+    }
+
+    private data class DistanceBand(val label: String, val y: Int, val w: Int, val j: Int, val f: Int)
+
+    private fun skyTeamPartnerGroupBand(dist: Int): DistanceBand = when {
+        dist <= 1000 -> DistanceBand("Group A (1-1.000 mi)", 15_000, 20_000, 25_000, 37_500)
+        dist <= 1500 -> DistanceBand("Group B (1.001-1.500 mi)", 17_500, 23_500, 30_000, 45_000)
+        dist <= 2000 -> DistanceBand("Group C (1.501-2.000 mi)", 22_500, 30_000, 37_500, 56_500)
+        dist <= 2500 -> DistanceBand("Group D (2.001-2.500 mi)", 27_500, 37_000, 47_500, 71_500)
+        dist <= 3000 -> DistanceBand("Group E (2.501-3.000 mi)", 32_500, 45_000, 57_500, 86_500)
+        dist <= 4000 -> DistanceBand("Group F (3.001-4.000 mi)", 37_500, 52_500, 67_500, 101_500)
+        dist <= 6000 -> DistanceBand("Group G (4.001-6.000 mi)", 42_500, 58_500, 75_000, 112_500)
+        dist <= 8000 -> DistanceBand("Group H (6.001-8.000 mi)", 52_500, 73_500, 95_000, 142_500)
+        else -> DistanceBand("Group I (8.001-10.000+ mi)", 57_500, 78_500, 100_000, 150_000)
+    }
+
+    // =========================================================================
+    // 2. KRISFLYER (SQ Zone-to-Zone Saver & Advantage Chart + Star Alliance)
+    // =========================================================================
+    private fun calculateKrisFlyer(
+        airlineCode: String,
+        origin: Airport,
+        dest: Airport,
+        distanceMi: Int,
+        cabin: CabinClass,
+        useAdvantage: Boolean
+    ): MilesEstimate {
+        if (airlineCode == "TR") {
+            // Scoot KrisFlyer distance-equivalent redemption
+            val baseY = max(4_500, roundTo500(distanceMi * 5.0))
+            val miles = if (cabin == CabinClass.PREMIUM_ECONOMY) roundTo500(baseY * 1.65) else baseY
+            return MilesEstimate(
+                miles = miles,
+                tierLabel = "Scoot Award",
+                ruleSummary = "KrisFlyer Scoot ($distanceMi mi)"
+            )
+        }
+
+        val isSQ = airlineCode == "SQ"
+        val z1 = min(origin.kfZone, dest.kfZone)
+        val z2 = max(origin.kfZone, dest.kfZone)
+
+        if (isSQ) {
+            val quad = if (useAdvantage) {
+                sqAdvantageRates(z1, z2, distanceMi)
+            } else {
+                sqSaverRates(z1, z2, distanceMi)
+            }
+            val finalMiles = when (cabin) {
+                CabinClass.ECONOMY -> quad.y
+                CabinClass.PREMIUM_ECONOMY -> quad.w
+                CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> quad.j
+                CabinClass.FIRST, CabinClass.SUITES -> quad.f
+            }
+            val tier = when {
+                cabin == CabinClass.SUITES && useAdvantage -> "SQ Suites Advantage"
+                cabin == CabinClass.SUITES -> "SQ Suites Saver"
+                useAdvantage -> "SQ Advantage"
+                else -> "SQ Saver"
+            }
+            return MilesEstimate(
+                miles = finalMiles,
+                tierLabel = tier,
+                ruleSummary = "KrisFlyer $tier (Zona $z1 ↔ Zona $z2)"
+            )
+        } else {
+            // Star Alliance & Bilateral Partner Chart (1-way)
+            val (y, w, j, f) = starPartnerRates(z1, z2, distanceMi)
+            val miles = when (cabin) {
+                CabinClass.ECONOMY -> y
+                CabinClass.PREMIUM_ECONOMY -> w
+                CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> j
+                CabinClass.FIRST, CabinClass.SUITES -> f
+            }
+            val label = if (airlineCode in setOf("VA", "B6", "HO")) "Mitra KrisFlyer" else "Star Alliance"
+            return MilesEstimate(
+                miles = miles,
+                tierLabel = label,
+                ruleSummary = "KrisFlyer $label (Zona $z1 ↔ Zona $z2)"
+            )
+        }
+    }
+
+    private data class Quad(val y: Int, val w: Int, val j: Int, val f: Int)
+
+    // Official Singapore Airlines KrisFlyer One-Way Saver Awards Chart (in miles)
+    private fun sqSaverRates(z1: Int, z2: Int, dist: Int): Quad {
+        // Explicit SQ Fifth Freedom / special sub-zone routes
+        if (z1 == 11 && z2 == 11) return Quad(11_500, 20_000, 36_000, 50_500) // MXP-BCN
+        if (z1 == 11 && z2 == 13) return Quad(27_500, 57_000, 89_000, 106_500) // FRA-JFK / MAN-IAH
+        if (z1 == 7 && z2 == 12) return Quad(42_500, 80_500, 114_000, 132_500) // NRT-LAX
+
+        val table: Map<Pair<Int, Int>, Quad> = mapOf(
+            // Zone 1 (Singapore)
+            (1 to 1) to Quad(8_000, 14_000, 22_000, 32_000),
+            (1 to 2) to Quad(8_000, 14_000, 22_000, 32_000),
+            (1 to 3) to Quad(13_000, 20_000, 25_000, 38_000),
+            (1 to 4) to Quad(15_500, 28_000, 35_500, 47_500),
+            (1 to 5) to Quad(20_500, 36_000, 45_000, 61_500),
+            (1 to 6) to Quad(19_000, 36_000, 45_000, 61_500),
+            (1 to 7) to Quad(25_500, 39_500, 54_500, 81_000),
+            (1 to 8) to Quad(20_500, 34_000, 42_500, 60_500),
+            (1 to 9) to Quad(29_000, 53_500, 72_000, 98_000),
+            (1 to 10) to Quad(32_000, 51_500, 68_000, 95_000),
+            (1 to 11) to Quad(44_000, 74_500, 108_500, 148_000),
+            (1 to 12) to Quad(44_000, 79_000, 112_500, 154_000),
+            (1 to 13) to Quad(46_000, 84_500, 117_000, 156_000),
+            // Zone 2 (Malaysia, Indonesia, Brunei)
+            (2 to 2) to Quad(8_500, 15_000, 23_000, 33_500),
+            (2 to 3) to Quad(13_500, 20_500, 26_500, 39_500),
+            (2 to 4) to Quad(16_000, 28_500, 36_500, 48_500),
+            (2 to 5) to Quad(21_000, 37_500, 46_500, 63_000),
+            (2 to 6) to Quad(20_000, 38_000, 47_500, 64_500),
+            (2 to 7) to Quad(27_000, 41_500, 57_000, 84_500),
+            (2 to 8) to Quad(21_500, 35_000, 44_500, 63_500),
+            (2 to 9) to Quad(30_500, 56_000, 75_500, 103_000),
+            (2 to 10) to Quad(33_500, 54_000, 70_500, 99_500),
+            (2 to 11) to Quad(46_000, 78_000, 114_000, 155_000),
+            (2 to 12) to Quad(46_000, 82_500, 117_500, 161_000),
+            (2 to 13) to Quad(48_500, 88_500, 122_500, 163_500),
+            // Zone 3 (Philippines, Thailand, Vietnam, Myanmar, Cambodia, Laos)
+            (3 to 3) to Quad(13_500, 20_500, 26_500, 39_500),
+            (3 to 6) to Quad(20_000, 38_000, 47_500, 64_500),
+            (3 to 7) to Quad(27_000, 41_500, 57_000, 84_500),
+            (3 to 8) to Quad(21_500, 35_000, 44_500, 63_500),
+            (3 to 9) to Quad(30_500, 56_000, 75_500, 103_000),
+            (3 to 10) to Quad(33_500, 54_000, 70_500, 99_500),
+            (3 to 11) to Quad(46_000, 78_000, 114_000, 155_000),
+            (3 to 12) to Quad(46_000, 82_500, 117_500, 161_000),
+            (3 to 13) to Quad(48_500, 88_500, 122_500, 163_500),
+            // Zone 4 (Mainland China excl. PEK/PVG, HKG, Taiwan)
+            (4 to 6) to Quad(25_000, 50_000, 62_000, 81_500),
+            (4 to 8) to Quad(21_500, 35_000, 44_500, 66_500),
+            (4 to 9) to Quad(30_000, 57_000, 77_000, 105_000),
+            (4 to 10) to Quad(46_500, 78_000, 100_000, 139_500),
+            (4 to 11) to Quad(51_500, 97_000, 128_000, 174_000),
+            (4 to 13) to Quad(57_000, 107_000, 134_000, 182_500),
+            // Zone 5 (Beijing & Shanghai)
+            (5 to 6) to Quad(36_000, 60_500, 78_500, 93_500),
+            (5 to 8) to Quad(32_000, 52_000, 68_000, 86_500),
+            (5 to 9) to Quad(40_000, 80_500, 100_000, 126_500),
+            (5 to 10) to Quad(46_500, 85_000, 102_000, 139_500),
+            (5 to 11) to Quad(51_000, 103_000, 123_000, 168_000),
+            // Zone 6 (South Asia)
+            (6 to 7) to Quad(42_000, 64_500, 88_000, 114_500),
+            (6 to 8) to Quad(32_000, 55_000, 75_000, 113_000),
+            (6 to 9) to Quad(42_000, 79_000, 100_000, 138_000),
+            (6 to 12) to Quad(55_000, 105_500, 133_000, 186_500),
+            (6 to 13) to Quad(65_500, 111_000, 147_500, 194_500),
+            // Zone 7 (Japan & South Korea)
+            (7 to 8) to Quad(37_000, 58_000, 79_000, 100_500),
+            (7 to 9) to Quad(44_500, 83_000, 108_500, 136_500),
+            (7 to 10) to Quad(58_500, 89_000, 112_500, 145_500),
+            (7 to 11) to Quad(55_000, 106_000, 135_000, 186_500),
+            // Zone 8 (Perth & Darwin)
+            (8 to 10) to Quad(46_500, 85_000, 102_000, 145_000),
+            (8 to 11) to Quad(52_500, 84_500, 131_500, 176_500),
+            (8 to 12) to Quad(61_000, 107_000, 137_500, 194_50GaOwnMetalRate(30_000, 54_000, 90_000)
                 distanceMi <= 3700 -> GaOwnMetalRate(35_000, 63_000, 108_000)
                 distanceMi <= 5800 -> GaOwnMetalRate(49_000, 89_000, 126_000)
                 else -> GaOwnMetalRate(50_000, 110_000, 190_000)
