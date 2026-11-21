@@ -201,36 +201,51 @@ fun ChartsWalletScreen(
                             )
                         }
                         MilesProgram.KRISFLYER -> {
-                            ChartHeader("Dari Indonesia (Zona 2) — SQ Saver 2026", KrisFlyerColor)
-                            ChartRow("Ke Singapura (Z1)", "8.000", "22.000", "31.500")
-                            ChartRow("Ke SE Asia Lain (Z3)", "13.000", "25.000", "34.500")
-                            ChartRow("Ke HKG / TPE (Z4)", "16.000", "35.000", "46.500")
-                            ChartRow("Ke PVG / PEK (Z5)", "21.000", "44.500", "60.500*")
-                            ChartRow("Ke Jepang / Korea (Z7)", "25.500", "54.500", "81.000")
-                            ChartRow("Ke PER / DRW (Z8)", "20.500", "42.500", "60.500")
-                            ChartRow("Ke SYD / MEL / AKL (Z9)", "29.000", "72.000", "98.000*")
-                            ChartRow("Ke Timur Tengah / Afrika (Z10)", "28.500", "58.500", "88.000")
-                            ChartRow("Ke Eropa (Z11)", "44.000", "108.500", "148.000*")
-                            ChartRow("Ke AS Pantai Barat (Z12)", "44.000", "112.500", "154.000")
-                            ChartRow("Ke AS Pantai Timur (Z13)", "46.000", "117.000", "156.000*")
+                            ChartHeader("Dari Singapura (Zona 1) — SQ Saver (1-Way)", KrisFlyerColor)
+                            ChartRow("Ke Z1 / Z2 (ID, MY, BN)", "8.000", "22.000", "32.000")
+                            ChartRow("Ke Z3 (TH, VN, PH, KH, LA, MM)", "13.000", "25.000", "38.000")
+                            ChartRow("Ke Z4 (HKG, TPE, China Sel.)", "15.500", "35.500", "47.500")
+                            ChartRow("Ke Z5 (PVG, PEK)", "20.500", "45.000", "61.500*")
+                            ChartRow("Ke Z6 (Asia Selatan)", "19.000", "45.000", "61.500*")
+                            ChartRow("Ke Z7 (Jepang, Korea Selatan)", "25.500", "54.500", "81.000")
+                            ChartRow("Ke Z8 (Perth, Darwin)", "20.500", "42.500", "60.500")
+                            ChartRow("Ke Z9 (SYD, MEL, AKL, dll.)", "29.000", "72.000", "98.000*")
+                            ChartRow("Ke Z10 (Timur Tengah, Afrika, TR)", "32.000", "68.000", "95.000")
+                            ChartRow("Ke Z11 (Eropa)", "44.000", "108.500", "148.000*")
+                            ChartRow("Ke Z12 (AS Pantai Barat)", "44.000", "112.500", "154.000")
+                            ChartRow("Ke Z13 (AS Pantai Timur)", "46.000", "117.000", "156.000*")
+                            Spacer(Modifier.height(10.dp))
+                            ChartHeader("Dari Indonesia (Zona 2) — SQ Saver (1-Way)", KrisFlyerColor)
+                            ChartRow("Ke Singapura (Z1)", "8.000", "22.000", "32.000")
+                            ChartRow("Ke Z2 / Z3 (MY, BN / SE Asia)", "8.500–13.500", "23.000–26.500", "33.500–39.500")
+                            ChartRow("Ke Z4 (HKG, TPE, China Sel.)", "16.000", "36.500", "48.500")
+                            ChartRow("Ke Z5 (PVG, PEK)", "21.000", "46.500", "63.000")
+                            ChartRow("Ke Z6 (Asia Selatan)", "20.000", "47.500", "64.500")
+                            ChartRow("Ke Z7 (Jepang, Korea Selatan)", "27.000", "57.000", "84.500")
+                            ChartRow("Ke Z8 (Perth, Darwin)", "21.500", "44.500", "63.500")
+                            ChartRow("Ke Z9 (SYD, MEL, AKL, dll.)", "30.500", "75.500", "103.000")
+                            ChartRow("Ke Z10 (Timur Tengah, Afrika, TR)", "33.500", "70.500", "99.500")
+                            ChartRow("Ke Z11 (Eropa)", "46.000", "114.000", "155.000")
+                            ChartRow("Ke Z12 (AS Pantai Barat)", "46.000", "117.500", "161.000")
+                            ChartRow("Ke Z13 (AS Pantai Timur)", "48.500", "122.500", "163.500")
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                text = "Mengacu pada skema KrisFlyer Saver/Advantage (efektif Nov 2025 / terverifikasi 2026). *Tersedia A380 Suites/First pada SQ (SIN–LHR/FRA/JFK/SYD/MEL/HKG/PVG/DEL/BOM/AKL/NRT/ZRH), LH (MUC), OZ (ICN), KE (ICN), QR (DOH), QF (SYD/MEL), BA (LHR), EY (AUH), & EK (DXB incl. DPS–DXB & Fifth Freedom).",
+                                text = "Mengacu pada Singapore Airlines One-Way Saver & Advantage Awards Chart (efektif 1 Nov 2025). Gunakan toggle KF: Saver / Adv di Kalkulator untuk tarif Advantage (mis. SIN–Z2: 16.500 Eco / 40.500 Biz / 60.500 Suites; Z2–Z11: 82.500 Eco / 147.500 Biz / 270.500 Suites).",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                         MilesProgram.ASIA_MILES -> {
-                            ChartHeader("Cathay Pacific Standard (Repricing 1 Mei 2026)", AsiaMilesColor)
-                            ChartRow("Ultra-Short ≤750 mi", "7.000", "16.000", "25.000")
-                            ChartRow("751–2.750 mi (Type 1)", "9.000", "27.000", "43.000")
-                            ChartRow("751–2.750 mi (Type 2)*", "13.000", "32.000", "50.000")
-                            ChartRow("Medium 2.751–5.000 mi", "20.000", "60.000", "90.000")
-                            ChartRow("Long 5.001–7.500 mi", "27.000", "91.000", "125.000")
-                            ChartRow("Ultra-Long 7.501+ mi", "38.000", "119.000", "160.000")
+                            ChartHeader("Cathay Pacific Standard Award Chart (1-Way)", AsiaMilesColor)
+                            ChartRow("Ultra-Short (1–750 mi)", "7.000", "16.000", "27.000")
+                            ChartRow("Short Type 1 (751–2.750 mi)", "9.000", "28.000", "43.000")
+                            ChartRow("Short Type 2 (751–2.750 mi)*", "13.000", "33.000", "50.000")
+                            ChartRow("Medium-Haul (2.751–5.000 mi)", "20.000", "58.000", "85.000")
+                            ChartRow("Long-Haul (5.001–7.500 mi)", "27.000", "88.000", "125.000")
+                            ChartRow("Ultra-Long (7.501+ mi)", "38.000", "115.000", "160.000")
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                text = "Repricing Asia Miles per 1 Mei 2026 (one-way). *Type 2 mencakup rute melibatkan Indonesia, Jepang, India, Bangladesh, Nepal, atau Sri Lanka pada pita 751–2.750 mi. Armada B777-300ER Aria Suite Business CX beroperasi pada rute HKG–LHR/SYD/MEL/YVR/SFO/HND/PEK/PVG/TPE/SIN/BKK.",
+                                text = "Tarif Premium Economy CX: 15.000 (Ultra-Short), 18.000 (Short Type 1), 23.000 (Short Type 2), 40.000 (Medium), 50.000 (Long), 75.000 (Ultra-Long). *Short Type 2 berlaku untuk rute dari/ke Indonesia, Jepang, dan Asia Selatan (India, Nepal, Bangladesh, Sri Lanka). Kolom Biz mencakup Aria Suite B777-300ER.",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
