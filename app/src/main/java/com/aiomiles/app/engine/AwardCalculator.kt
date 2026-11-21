@@ -171,7 +171,7 @@ object AwardCalculator {
             val miles = when (effectiveCabin) {
                 CabinClass.ECONOMY -> rate.y
                 CabinClass.PREMIUM_ECONOMY -> roundTo500((rate.y + rate.j) * 0.48)
-                CabinClass.BUSINESS -> rate.j
+                CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> rate.j
                 CabinClass.FIRST, CabinClass.SUITES -> rate.f
             }
             return MilesEstimate(
@@ -194,7 +194,7 @@ object AwardCalculator {
             val miles = when (effectiveCabin) {
                 CabinClass.ECONOMY -> rate.y
                 CabinClass.PREMIUM_ECONOMY -> roundTo500((rate.y + rate.j) * 0.48)
-                CabinClass.BUSINESS -> rate.j
+                CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> rate.j
                 CabinClass.FIRST, CabinClass.SUITES -> rate.f
             }
             return MilesEstimate(
@@ -209,7 +209,7 @@ object AwardCalculator {
         val miles = when (effectiveCabin) {
             CabinClass.ECONOMY -> band.y
             CabinClass.PREMIUM_ECONOMY -> band.w
-            CabinClass.BUSINESS -> band.j
+            CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> band.j
             CabinClass.FIRST, CabinClass.SUITES -> band.f
         }
         val label = if (airlineCode == "EY") "Mitra Etihad" else "SkyTeam / Partner"
@@ -304,7 +304,7 @@ object AwardCalculator {
         val factor = when (cabin) {
             CabinClass.ECONOMY -> 1.80
             CabinClass.PREMIUM_ECONOMY -> 1.50
-            CabinClass.BUSINESS -> 1.62
+            CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> 1.62
             CabinClass.FIRST, CabinClass.SUITES -> 1.75
         }
         return roundTo500(saver * factor)
@@ -420,7 +420,7 @@ object AwardCalculator {
             val miles = when (effectiveCabin) {
                 CabinClass.ECONOMY -> band.y
                 CabinClass.PREMIUM_ECONOMY -> band.w
-                CabinClass.BUSINESS -> band.j
+                CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> band.j
                 CabinClass.FIRST, CabinClass.SUITES -> band.f
             }
             return MilesEstimate(
@@ -439,7 +439,7 @@ object AwardCalculator {
         val miles = when (effectiveCabin) {
             CabinClass.ECONOMY -> band.y
             CabinClass.PREMIUM_ECONOMY -> band.w
-            CabinClass.BUSINESS -> band.j
+            CabinClass.BUSINESS, CabinClass.ARIA_SUITE -> band.j
             CabinClass.FIRST, CabinClass.SUITES -> band.f
         }
         val label = when {
